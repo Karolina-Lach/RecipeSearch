@@ -1,0 +1,176 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+}
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<div class="py-4">
+    <div class="row form-group">
+        <div class="col-7 offset-3">
+            <div class="card">
+                <div class="card-body px-lg-5 pt-4">
+                    <h3 class="col-12 text-center py-4">
+                        @ViewData["Title"]
+
+                    </h3>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row py-1">
+                        <div class="col-4">
+                            <strong>Username: </strong>
+                        </div>
+                        <div class="col">
+                            @Model.Username
+                        </div>
+                    </div>
+                    <hr class="solid">
+                    <div class="row py-1">
+                        <div class="col-4">
+                            <strong>Email: </strong>
+                        </div>
+                        <div class="col">
+                            <form id="email-form" method="post" name="email-form">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" asp-for="Input.NewEmail" placeholder="Email" aria-label="Email" id="newEmail" disabled>
+                                        <span asp-validation-for="Input.NewEmail" class="text-danger"></span>
+                                        @if (Model.HasPassword)
+                                        {
+                                            <div class="input-group-append" id="changeEmail">
+                                                <span class="input-group-text" style="padding:0px">
+                                                    <button class="btn btn-light btn-sm"><i class="fas fa-pencil-alt"></i></button>
+                                                </span>
+                                            </div>
+                                        }
+                                        else
+                                        {
+
+                                        }
+
+                                    </div>
+                                </div>
+                                <div id="toggableEmail" style="display:none">
+                                    <div class="form-group " style="margin-bottom:0px; padding-bottom:0px">
+                                        <div class="input-group mb-3" style="margin-bottom:0px; padding-bottom:0px">
+                                            <input type="password" class="form-control" asp-for="Input.Password" placeholder="Password" aria-label="Password" />
+                                            @*<span asp-validation-for="Input.Password" class="text-danger"></span>*@
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center py-4" style="margin-top:0px; padding-top:0px">
+                                        <button id="update-profile-button" form="email-form" type="submit" asp-page-handler="EmailChange" class="btn btn-primary">Save email</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr class="solid">
+                    <div class="row py-1">
+                        <div class="col-4">
+                            @if (Model.HasPassword)
+                            {
+                                <strong>Change password: </strong>
+                            }
+                            else
+                            {
+                                <strong>Set password: </strong>
+                            }
+                        </div>
+                        <div class="col">
+                            <form id="password-form" method="post" name="password-form">
+                                <div class="form-group" style="margin-bottom:0px; padding-bottom:0px">
+
+                                    @if (Model.HasPassword)
+                                    {
+                                        <div class="input-group mb-3" style="margin-bottom:0px; padding-bottom:0px">
+                                            <input type="password" class="form-control" asp-for="Input.Password" placeholder="Current password" aria-label="Password" />
+                                        </div>
+                                    }
+
+
+                                    @*<span asp-validation-for="Input.Password" class="text-danger"></span>*@
+
+                                    @*</div>*@
+                                    @*<div class="form-group " style="margin-bottom:0px; padding-bottom:0px">*@
+                                    <div class="input-group mb-3" style="margin-bottom:0px; padding-bottom:0px">
+                                        <input type="password" class="form-control" asp-for="Input.NewPassword" placeholder="New password" aria-label="Password" />
+                                        <span asp-validation-for="Input.NewPassword" class="text-danger"></span>
+                                    </div>
+                                    @*</div>*@
+                                    @*<div class="form-group " style="margin-bottom:0px; padding-bottom:0px">*@
+                                    <div class="input-group mb-3" style="margin-bottom:0px; padding-bottom:0px">
+                                        <input type="password" class="form-control" asp-for="Input.ConfirmPassword" placeholder="Confirm new password" aria-label="Password" />
+                                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center py-4" style="margin-top:0px; padding:0px">
+                                    <button id="update-profile-button" type="submit" form="password-form" asp-page-handler="PasswordChange" class="btn btn-primary">Save password</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <hr class="solid">
+                    <div class="row py-1 d-flex justify-content-center">
+                        <a class="nav-link text-light btn btn-danger" asp-area="Identity" asp-page="/Account/Manage/DeletePersonalData" title="Manage" >Delete account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*</form>*@
+
+@*<h4>@ViewData["Title"]</h4>
+    <partial name="_StatusMessage" model="Model.StatusMessage" />
+    <div class="row">
+        <div class="col-md-6">
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Username"></label>
+                    <input asp-for="Username" class="form-control" disabled />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Input.PhoneNumber"></label>
+                    <input asp-for="Input.PhoneNumber" class="form-control" />
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+                <button id="update-profile-button" type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </div>*@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            //$("#newEmail").attr("disabled", true);
+            //$("#toggableEmail").slideUp(function () {
+            //});
+            $('#changeEmail').on('click', 'button', function (e) {
+                e.preventDefault();
+                var selectedEffect = 'blind';
+                var options = {};
+                $("toggableEmail").removeAttr('hidden');
+                // Run the effect
+                $("#toggableEmail").toggle(selectedEffect, options, 500, function () {
+                    console.log('toggled');
+                    var elementVisible = $(this).is(':hidden');
+                    if (elementVisible) {
+                        $("#newEmail").attr("disabled", true);
+                    }
+                    else {
+                        $("#newEmail").attr("disabled", false);
+                    }
+
+                });
+            });
+        });
+    </script>
+}

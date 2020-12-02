@@ -1,0 +1,16 @@
+﻿@model RecipeSearch.Models.ViewModels.LikeButtonVM
+
+@if (Model.IsLiked)
+{
+    <button onclick="Like(@Model.RecipeId)" class="btn btn-light likeButton" id="likeButton @Model.RecipeId" value="@Model.RecipeId">
+        <i class="fas fa-heart"></i>
+    </button>
+}
+else
+{
+    <button onclick="Like(@Model.RecipeId)" class="btn btn-light likeButton" id="likeButton @Model.RecipeId" value="@Model.RecipeId">
+        <i class="far fa-heart"></i>
+    </button>
+}
+
+

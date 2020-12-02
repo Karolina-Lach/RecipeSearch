@@ -1,0 +1,16 @@
+﻿@model Recipe
+@{
+    ViewData["Title"] = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container backgroundWhite">
+    <partial name="_RecipeHeader" model="@Model" />
+    <partial name="_RecipeDetails" model="@Model" />
+</div>
+
+
+@section Scripts {
+    <script src="~/js/likeButton.js"></script>
+
+}

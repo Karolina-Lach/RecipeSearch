@@ -1,0 +1,323 @@
+﻿@model RecipeSearch.Models.ViewModels.SearchCriteria
+@inject IJsonHelper Json;
+@using RecipeSearch.Utility
+
+@{
+    ViewData["Title"] = "Search for recipes";
+}
+
+<br />
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+</div>
+<hr class="solid">
+<div class="row p-3 border">
+    <div class="col-8 pt-4" id="filters">
+        <div class="col-12 offset-3">
+            <div class="container">
+                <div class="row">
+                    <p style="margin-bottom:0px;">
+                        <small class="form-text text-muted">
+                            Please note the more products you will provide, the more results will be found.
+                        </small>
+                    </p>
+                    <p style="margin-top:0px">
+                        <small class="form-text text-muted">
+                            Don't forget to include staples like salt or oil.
+                        </small>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <form class="form-inline my-2 my-lg-0">
+                            <div id="add-container">
+                                <input type="text" class="form-control mr-sm-2" style="width:250px" id="productInput" />
+                                <button class="btn btn-secondary my-2 my-sm-0"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top:5px">
+                <div class="row" id="products-container">
+
+                </div>
+            </div>
+        </div>
+        <br />
+        <form method="get" enctype="multipart/form-data" id="searchForm">
+            <div class="col-12 offset-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h6>Properties</h6>
+                        </div>
+                    </div>
+                    <div class="row" id="propertiesSet">
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input propCheckbox" id="noDairy" name="properties" value="NoDairy">
+                                <label class="custom-control-label" for="noDairy">No dairy</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input propCheckbox" id="noGluten" name="properties" value="NoGluten">
+                                <label class="custom-control-label" for="noGluten">No gluten</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input propCheckbox" id="vegan" name="properties" value="Vegan">
+                                <label class="custom-control-label" for="vegan">Vegan</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input propCheckbox" id="vege" name="properties" value="Vegetarian">
+                                <label class="custom-control-label" for="vege">Vegetarian</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input propCheckbox" id="healthy" name="properties" value="Healthy">
+                                <label class="custom-control-label" for="healthy">Healthy</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top:10px">
+                        <div class="col">
+                            <div class="custom-control custom-checkbox applyAll">
+                                <input type="checkbox" class="custom-control-input" id="applyAll" disabled>
+                                <label class="custom-control-label" for="applyAll"><em>Don't show recipes that don't apply all of the above properties</em></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="col-12 offset-3">
+                <div class="container" id="cuisinesSet">
+                    <div class="row">
+                        <div class="col">
+                            <h6>Cuisines</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @{
+                            int cnt = 0;
+                            foreach (Cuisine cuisine in Model.AvailableCuisines)
+                            {
+                                if (cnt++ % 4 == 0)
+                                {
+                                @:</div><div class="row">
+                                }
+                                @:<div class="col">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox"
+                                               name="selectedCuisines"
+                                               value="@cuisine"
+                                               class="custom-control-input"
+                                               id="cuisine @cnt">
+                                        <label class="custom-control-label" for="cuisine @cnt">@StringHelper.FirstLetterToUpper(@cuisine.ToString())</label>
+                                    </div>
+                                @:</div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="col-12 offset-3">
+                <div class="container" id="mealsSet">
+                    <div class="row">
+                        <div class="col">
+                            <h6>Types of meal</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @{
+                            cnt = 0;
+                            foreach (MealType meal in Model.AvailableMealTypes)
+                            {
+                                if (cnt++ % 4 == 0)
+                                {
+                                @:</div><div class="row">
+                                }
+                                @:<div class="col">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox"
+                                               name="selectedCuisines"
+                                               value="@meal"
+                                               class="custom-control-input"
+                                               id="meal @cnt">
+                                        <label class="custom-control-label" for="meal @cnt">@meal.ToString()</label>
+                                    </div>
+                                @:</div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="col-12 offset-3">
+                <div class="container" id="mealsSet">
+                    <div class="row">
+                        <div class="col col-sm-5">
+
+                            <h6 style="display: inline;">Maximum prep time</h6> &nbsp;
+                            <small>(in minutes)</small>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mr-sm-2" style="width:50px; height:25px" id="prepTime" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-2 offset-8">
+                    <div class="row">
+                        <div class="col">
+                            <button id="submit" type="submit" asp-action="Index" asp-controller="RecipeSearch" class="btn btn-secondary form-control" asp-route-id="@Model">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="col-12 pt-4">
+        <div class="row">
+            <div class="col col-sm-11" id="toggleFiltersText">
+
+            </div>
+            <div class="col col-sm-1">
+                <button id="toggleFilters" class="btn btn-info" style="opacity:0.5"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-12 pt-4">
+    <div id="buffer" class="row justify-content-md-center" style="display: none">
+        <i class="fa fa-spinner fa-spin"></i>&nbsp; Perfect recipes will be here in a minute...
+    </div>
+</div>
+
+<div id="data" onload="SlideUp()">
+    @{ RecipeSearch.Models.ViewModels.FoundRecipesVM foundRecipesVM = ViewBag.Result; }
+    @if (foundRecipesVM != null)
+    {
+        <partial name="_FoundRecipes" model="foundRecipesVM" />
+    }
+
+</div>
+
+<div id="result" class="container"></div>
+@section Scripts{
+    <script src="~/js/likeButton.js" path="Favourites/AddToFavourites"></script>
+    <script src="~/js/propertiesApplyAll.js"></script>
+    <script src="~/js/submitSearchCriteria.js"></script>
+    <script src="~/lib/json2.js"></script>
+    <script type="text/javascript">
+        function LoadData(pageNumber) {
+            var hostString = window.location.protocol + "//" + window.location.host + "/";
+            if (pageNumber == undefined) {
+                url = hostString + "User/RecipeSearch/Index";
+            } else {
+                url = hostString + "User/RecipeSearch/ChangeResultPage/"; /// + pageNumber;
+            }
+            /*onsole.log(url);*/
+            $.get({
+                url: url,
+                data: { pageNumber: pageNumber },
+                success: function (data) {
+                    $("#data").html(data);
+                },
+                error: function () {
+                    swal({
+                        text: "Oops, something went wrong. Please try again later.",
+                        icon: "error"
+                    });
+                }
+            });
+        }
+        function getAvailableProducts() {
+            var model = [];
+            model = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.AvailableProducts));
+            //console.log(model);
+            return model;
+        }
+        function SlideUp() {
+            $("#filters").slideUp(function () {
+                $("#toggleFilters").html('<i class="fas fa-arrow-down"></i>');
+                $('#toggleFiltersText').html('<em>Filters...</em>');
+            });
+        }
+        function autocompleteProducts(availableProducts) {
+            var validOptions = availableProducts;
+
+            $('#productInput').autocomplete({
+                autoFocus: true,
+                source: validOptions
+            }).keyup(function () {
+                var isValid = false;
+                for (i in validOptions) {
+                    if (validOptions[i].toLowerCase().match(this.value.toLowerCase())) {
+                        isValid = true;
+                    }
+                }
+            });
+        }
+        function addProductItem(availableProducts) {
+            var validOptions = []
+            validOptions = availableProducts;
+            $('#add-container').on('click', 'button', function (e) {
+                e.preventDefault();
+                var value = $('#add-container input').val();
+                var isValid = false;
+                for (i in validOptions) {
+                    if (validOptions[i].toLowerCase() == value.toLowerCase()) {
+                        console.log(validOptions[i]);
+                        isValid = true;
+                    }
+                }
+
+                if (value != "" && isValid) {
+                    var html = '<div class="item" value="' + value + '" >\
+            <div class="remove">X</div>' + value + '</div>';
+
+                    $('#products-container').append(html);
+                    $('#add-container input').val('');
+                }
+            });
+        }
+        function removeProductItem() {
+            $('#products-container').on('click', '.remove', function () {
+                $(this).parent().remove();
+                console.log($(this).attr("value"));
+                console.log($(this).parent().attr("value"));
+            });
+        }
+        //function Clear() {
+        //    console.log('clear');
+        //    $.ajax({
+        //        type: "get",
+        //        url: "RecipeSearch/Clear"
+        //    });
+        //}
+
+        $(document).ready(function () {
+            var availableProducts = getAvailableProducts();
+            autocompleteProducts(availableProducts);
+            addProductItem(availableProducts);
+            removeProductItem();
+
+        });
+    </script>
+}

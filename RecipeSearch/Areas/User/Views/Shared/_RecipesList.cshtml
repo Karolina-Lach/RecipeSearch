@@ -1,0 +1,15 @@
+﻿@model IEnumerable<RecipeSearch.Models.ViewModels.RecipeHeaderVM>
+
+<div class="row pb-3 backgroundWhite">
+    @if (Model == null || Model.Count() == 0)
+    {
+        <p>No recipes in here yet.</p>
+    }
+    else
+    {
+        @foreach (var recipe in Model)
+        {
+            <partial name="_RecipeItem" model="@recipe" />
+        }
+    }
+</div>

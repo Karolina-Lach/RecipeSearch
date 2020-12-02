@@ -1,0 +1,51 @@
+﻿@model RecipeSearch.Models.ViewModels.FoundRecipe
+
+<div class="col-lg-3 col-md-6">
+    <div class="row p-2">
+        <div class="col-12  p-1" style="border:1px solid #008cba; border-radius: 5px;">
+            <div class="card" style="border:0px;">
+
+                <div class="thumbnail text-center">
+                    <img class="rounded mx-auto d-block" src="@Model.Recipe.ImageUrl" />
+                </div>
+                <div class="pl-1">
+                    <p class="card-title h5 text-center pt-1 pb-0">@Model.Recipe.Name</p>
+                    <p class="text-sm-center pt-0">@Model.Recipe.Source</p>
+                </div>
+                <div style="padding-left:5px;" class="text-center">
+                    <p>
+                        Time: <b class="">@Model.Recipe.PrepTimeDisplay</b>
+                        &nbsp; Servings: <b class="">@Model.Recipe.Servings</b>
+                    </p>
+                </div>
+                <div style="padding-left:5px;" class="text-center">
+                    <p>
+                        @if (Model.ProductsDisplay) { <span> Matched ingredients: <b class=""> @Model.NumberOfProductsMatched</b></span>}
+                        &nbsp; @if (Model.PropertiesDisplay) { <span> Matched properties: <b class="">@Model.NumberOfPropertiesMatched</b></span>}
+                                                   <small>
+                                                       &nbsp; @if (Model.CuisineDisplay) { <span> Matched cuisine: @Model.HasCuisine.ToString().ToLower()</span>}
+                                                       &nbsp; @if (Model.MealDisplay) {<span>Matched meal: @Model.HasMealType.ToString().ToLower()</span>}
+                                                       &nbsp; @if (Model.TimeDisplay) {<span>Is in time: @Model.IsInTime.ToString().ToLower()</span>}
+                                                   </small>
+                    </p>
+                </div>
+
+
+                @*<div style="padding-left:5px;">
+                    <p style="color:maroon">@Model.Recipe.Summary</p>
+                </div>*@
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-9" style="margin-right:0px; padding-right:2px;">
+                        <a asp-controller="RecipeSearch" asp-action="Details" class="btn btn-primary form-control" asp-route-id="@Model.Recipe.Id">More...</a>
+                    </div>
+                    <div class="col-1" style="text-align:center; margin:0px; padding:0px">
+                        <partial name="_LikeButton" model="@new RecipeSearch.Models.ViewModels.LikeButtonVM(Model.Recipe.Id, Model.IsLiked)" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,5974 @@
+{
+  "Recipe": [
+    {
+      "Name": "Berry cobler",
+      "PrepTime": "70",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 170 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Place the flour, sugar, nuts and crackers into a large mixing bowl and combine. "
+        },
+        {
+          "Number": "3",
+          "Name": "Work the butter into the dry ingredients with your hands until it is crumbly."
+        },
+        {
+          "Number": "4",
+          "Name": "Place the frozen berries, sugar, cornstarch and 1/2 cup of the crisp topping into a medium mixing bowl and stir to combine"
+        },
+        {
+          "Number": "5",
+          "Name": "Divide the mixture evenly between 4 (7 to 8-ounce) ramekins. "
+        },
+        {
+          "Number": "6",
+          "Name": "Top each ramekin with 1/2 cup of the remaining crisp topping"
+        },
+        {
+          "Number": "7",
+          "Name": "Place the ramekins on a sheet pan and bake on the middle rack of the oven for 30 to 35 minutes or until the fruit is bubbling and the topping is browned. "
+        },
+        {
+          "Number": "8",
+          "Name": "Allow the crisps to cool for 15 minutes before serving"
+        }
+
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "berries"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "350"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "almonds"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cereal"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "120"
+        }
+      ]
+    },
+    {
+      "Name": "Rhubab peach cobler",
+      "PrepTime": "110",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Place a piece of aluminum foil on the bottom rack to catch any drippings."
+        },
+        {
+          "Number": "3",
+          "Name": "Butter a 9 by 9-inch glass baking dish and set aside. "
+        },
+        {
+          "Number": "4",
+          "Name": "Place the flour, 1-ounce sugar, lime zest, and 1 teaspoon salt into the bowl of a food processor and pulse 3 to 4 times."
+        },
+        {
+          "Number": "5",
+          "Name": "Add the butter and lard and pulse until the mixture just becomes crumbly. "
+        },
+        {
+          "Number": "6",
+          "Name": " Sprinkle or spritz the mixture with the ice water a little at a time and process just until the dough holds together when squeezed in a fist. "
+        },
+        {
+          "Number": "7",
+          "Name": "Place the dough into a 1 gallon zip top bag and form into a disk"
+        },
+        {
+          "Number": "8",
+          "Name": "Place the dough into the refrigerator for at least 30 minutes, while you prepare the filling."
+        },
+        {
+          "Number": "9",
+          "Name": "In a medium mixing bowl whisk together the 1 cup of sugar, cornstarch, and 1/4 teaspoon of salt. "
+        },
+        {
+          "Number": "10",
+          "Name": "Stir in the rhubarb, peaches, and lime juice."
+        },
+        {
+          "Number": "11",
+          "Name": "Remove 1/3 of the dough from the bag, pinch into pieces and distribute evenly in the bottom of the prepared dish. "
+        },
+        {
+          "Number": "12",
+          "Name": "With the remaining dough still in the bag, roll it out to a sheet large enough to cover the top of the dish. "
+        },
+        {
+          "Number": "13",
+          "Name": "Pour the fruit mixture into the dish and top with the dough that has been removed from the bag, pressing the dough into the corners of the dish."
+        },
+        {
+          "Number": "14",
+          "Name": "Bake, uncovered, for 60 minutes or until the dough is cooked through and starting to turn golden. *If using frozen fruit, increase cooking time to 90 minutes. ."
+        },
+        {
+          "Number": "15",
+          "Name": "Change the oven setting to broil and broil until golden brown, approximately 3 minutes"
+        },
+        {
+          "Number": "16",
+          "Name": "Remove from the oven and allow to stand for 15 to 30 minutes before serving."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "lemon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "zested and juiced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "170"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": "cold"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "rhubarb"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "450",
+          "Comment": "cut into pieces"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "peach"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "450",
+          "Comment": "peeled and sliced"
+        }
+      ]
+    },
+    {
+      "Name": "Blackberry grunt",
+      "PrepTime": "110",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 200 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Place a piece of aluminum foil on the bottom rack to catch any drippings."
+        },
+        {
+          "Number": "3",
+          "Name": "Place the flour, baking powder, salt and baking soda into the bowl of a food processor and process for 3 to 4 pulses. "
+        },
+        {
+          "Number": "4",
+          "Name": "Pour the mixture into a large mixing bowl and, using your hands, work the butter into the flour mixture until about half of the fat disappears and the rest is left in pea-size pieces."
+        },
+        {
+          "Number": "5",
+          "Name": "Make a well in the center of the mixture and add the buttermilk and stir with a rubber spatula or wooden spoon just until it comes together. "
+        },
+        {
+          "Number": "6",
+          "Name": "Turn the mixture out onto a piece of parchment or waxed paper that has been lightly dusted with flour, shape into a ball and wrap and store in the refrigerator while you prepare the filling"
+        },
+        {
+          "Number": "7",
+          "Name": "Combine the blackberries, sugar, water and ginger in a large mixing bowl."
+        },
+        {
+          "Number": "8",
+          "Name": "Pour the mixture into a 10-inch cast iron skillet and place over medium heat. "
+        },
+        {
+          "Number": "9",
+          "Name": "Bring this to a simmer decrease the heat to medium low and continue to cook, stirring occasionally, for 15 minutes, or until the liquid is thick enough to coat the back of a spoon."
+        },
+        {
+          "Number": "10",
+          "Name": "Retrieve the dough from the refrigerator and gently drop it on the fruit mixture using a 1-ounce disher or large spoon, evenly distributing it over the top. "
+        },
+        {
+          "Number": "11",
+          "Name": " Bake in the oven for 15 to 20 minutes, or until the top is just starting to brown. "
+        },
+        {
+          "Number": "12",
+          "Name": "Remove from the oven and allow the grunt to cool for 15 to 30 minutes before serving. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "60"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "blackberries"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ginger"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        }
+      ]
+    },
+    {
+      "Name": "The chewy",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Melt the butter in a heavy-bottom medium saucepan over low heat."
+        },
+        {
+          "Number": "3",
+          "Name": "Sift together the flour, salt, and baking soda and set aside. "
+        },
+        {
+          "Number": "4",
+          "Name": "Pour the melted butter in the mixer’s work bowl."
+        },
+        {
+          "Number": "5",
+          "Name": "\"Add the sugar and brown sugar."
+        },
+        {
+          "Number": "6",
+          "Name": "Cream the butter and sugars on medium speed. "
+        },
+        {
+          "Name": "Add the egg, yolk, 2 tablespoons milk and vanilla extract and mix until well combined. ",
+          "Number": "7"
+        },
+        {
+          "Number": "8",
+          "Name": "Slowly incorporate the flour mixture until thoroughly combined. "
+        },
+        {
+          "Number": "9",
+          "Name": "Stir in the chocolate chips."
+        },
+        {
+          "Number": "10",
+          "Name": "Chill the dough, then scoop onto parchment-lined baking sheets, 6 cookies per sheet."
+        },
+        {
+          "Number": "11",
+          "Name": "Bake for 14 minutes or until golden brown, checking the cookies after 5 minutes."
+        },
+        {
+          "Number": "12",
+          "Name": "Rotate the baking sheet for even browning."
+        },
+        {
+          "Number": "13",
+          "Name": "Cool completely and store in an airtight container."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bread flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "240"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg yolk"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "semi-sweet chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "The puffy",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Combine the butter, sugar, and brown sugar in the mixer’s work bowl, and cream until light and fluffy."
+        },
+        {
+          "Number": "3",
+          "Name": "In the meantime, sift together the cake flour, salt, and baking powder and set aside."
+        },
+        {
+          "Number": "4",
+          "Name": "Add the eggs 1 at a time to the creamed mixture."
+        },
+        {
+          "Number": "5",
+          "Name": "Then add vanilla. Increase the speed until thoroughly incorporated."
+        },
+        {
+          "Number": "6",
+          "Name": "With the mixer set to low, slowly add the dry ingredients to the shortening and combine well. "
+        },
+        {
+          "Number": "7",
+          "Name": "Stir in the chocolate chips."
+        },
+        {
+          "Number": "8",
+          "Name": "Chill the dough. "
+        },
+        {
+          "Number": "9",
+          "Name": "Scoop onto parchment-lined baking sheets, 6 per sheet"
+        },
+        {
+          "Number": "10",
+          "Name": "Bake for 13 minutes or until golden brown and puffy, checking the cookies after 5 minutes."
+        },
+        {
+          "Number": "11",
+          "Name": "Rotate the baking sheet for even browning. "
+        },
+        {
+          "Number": "12",
+          "Name": "Cool and store in an airtight-container. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cake flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "semi-sweet chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "Cut into small chips"
+        }
+      ]
+    },
+    {
+      "Name": "Sugar cookies",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "british",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Sift together the flour, salt, and baking soda in a mixing bowl."
+        },
+        {
+          "Number": "3",
+          "Name": "Place butter and sugar in large bowl of electric stand mixer and beat until light in color. "
+        },
+        {
+          "Number": "4",
+          "Name": "Add egg and milk and beat to combine. "
+        },
+        {
+          "Number": "5",
+          "Name": "Put mixer on low speed, gradually add flour, and beat until mixture pulls away from the side of the bowl."
+        },
+        {
+          "Number": "6",
+          "Name": "\"Divide the dough in half, wrap in waxed paper, and refrigerate for 2 hours."
+        },
+        {
+          "Number": "7",
+          "Name": "Sprinkle surface where you will roll out dough with powdered sugar. "
+        },
+        {
+          "Number": "8",
+          "Name": "Remove 1 wrapped pack of dough from refrigerator at a time, sprinkle rolling pin with powdered sugar, and roll out dough to 1/4-inch thick. "
+        },
+        {
+          "Number": "9",
+          "Name": "Move the dough around and check underneath frequently to make sure it is not sticking. If dough has warmed during rolling, place cold cookie sheet on top for 10 minutes to chill. "
+        },
+        {
+          "Number": "10",
+          "Name": "Cut into desired shape, place at least 1-inch apart on greased baking sheet, parchment, or silicone baking mat, and bake for 7 to 9 minutes or until cookies are just beginning to turn brown around the edges, rotating cookie sheet halfway through baking time. "
+        },
+        {
+          "Number": "11",
+          "Name": " Let sit on baking sheet for 2 minutes after removal from oven and then move to complete cooling on wire rack. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "beaten"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "powdered sugar"
+            }
+          },
+          "Comment": "for rolling out the dough"
+        }
+      ]
+    },
+    {
+      "Name": "Fruit tart",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "2",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 200 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Crimp seams of puff pastry together with fingertips."
+        },
+        {
+          "Number": "3",
+          "Name": "Dust both sides of pastry with sugar. Cut out 2 circles of pastry"
+        },
+        {
+          "Number": "4",
+          "Name": "Place pastry circles on a chilled sheet pan and let cool in the refrigerator for a few minutes."
+        },
+        {
+          "Number": "5",
+          "Name": "Using a vegetable peeler cut wafer thin apple slices. Put apple slices in lemon-juice-spiked water. "
+        },
+        {
+          "Number": "6",
+          "Name": "Flip pastry circles over on the sheet pans and poke them with a fork to provide an outlet for steam."
+        },
+        {
+          "Number": "7",
+          "Name": "Put parchment paper on the pan underneath the pastry circles. "
+        },
+        {
+          "Number": "8",
+          "Name": "Sprinkle pastry with sugar and arrange apple slices on top."
+        },
+        {
+          "Number": "9",
+          "Name": "Bake in the middle of the oven for 15 to 20 minutes. Poke the crust; if it feels soft it needs more time in the oven. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "puff pastry"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "package"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "apple"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "lemon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "squeeze the juice"
+        }
+      ]
+    },
+    {
+      "Name": "Honey plum",
+      "PrepTime": "18",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "5",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Cover the bottom of a sauté pan with honey"
+        },
+        {
+          "Number": "2",
+          "Name": "Place over low heat to warm the honey"
+        },
+        {
+          "Number": "3",
+          "Name": "Then add the plums, cut side down."
+        },
+        {
+          "Number": "4",
+          "Name": "Cook for 5 to 6 minutes or until the cut sides are slightly browned. "
+        },
+        {
+          "Number": "5",
+          "Name": "Turn the plums and cook for another 3 minutes or until the fruit is soft but not mushy. "
+        },
+        {
+          "Number": "6",
+          "Name": "Serve with ice cream."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "plum"
+            }
+          },
+          "Measurement": "10",
+          "Comment": "slightly under ripe, stones removed, quartered"
+        }
+
+      ]
+    },
+    {
+      "Name": "Indian rice pudding",
+      "PrepTime": "90",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "indian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large nonstick sauté pan over medium heat, combine the cooked rice and milk. Heat until the mixture begins to boil. "
+        },
+        {
+          "Number": "2",
+          "Name": "Decrease the heat to low and cook at a simmer until the mixture begins to thicken, stirring frequently, approximately 5 minutes. "
+        },
+        {
+          "Number": "3",
+          "Name": "Increase the heat to medium, add the heavy cream, coconut milk, sugar, and cardamom and continue to cook until the mixture just begins to thicken again, approximately 5 to 10 minutes. Use a whisk to help prevent the cardamom from clumping."
+        },
+        {
+          "Number": "4",
+          "Name": "Once the mixture just begins to thicken, remove from the heat and stir in the raisins and pistachios. "
+        },
+        {
+          "Number": "5",
+          "Name": "Transfer the mixture to individual serving dishes or a glass bowl and place plastic wrap directly on the surface of the pudding. "
+        },
+        {
+          "Number": "6",
+          "Name": "Serve chilled or at room temperature."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "basmati rice"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "cooked"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "heavy cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "coconut milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cardamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "raisins"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pistachios"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "chopped, unsalted"
+        }
+      ]
+    },
+    {
+      "Name": "Peanut brittle",
+      "PrepTime": "60",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a small bowl combine peanuts, cinnamon, and cayenne. Set aside. "
+        },
+        {
+          "Number": "2",
+          "Name": "Brush the inside of a medium sized heavy saucepan with vegetable oil.  "
+        },
+        {
+          "Number": "3",
+          "Name": "Add the sugar and water to the saucepan, cook over high heat, stirring occasionally with a wooden spoon, until it comes to a boil. "
+        },
+        {
+          "Number": "4",
+          "Name": "Stop stirring, cover and cook for 3 minutes."
+        },
+        {
+          "Number": "5",
+          "Name": "Uncover, reduce heat to medium, and cook until the sugar is a light amber color. "
+        },
+        {
+          "Number": "6",
+          "Name": "Stir in peanuts. This will greatly reduce the temperature of the sugar so work quickly."
+        },
+        {
+          "Number": "7",
+          "Name": "Once evenly mixed, pour mixture onto a sheet pan lined with a silicone baking mat or buttered parchment paper."
+        },
+        {
+          "Number": "8",
+          "Name": "Using a buttered spatula, spread thin. You will have to work quickly when pouring out and spreading the mixture in the pan. If necessary, in order to achieve single layer of peanuts, top with second sheet pan whose underside has been buttered. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "peanuts"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": "lightly salted, roasted"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cinnamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Tapioca puddding",
+      "PrepTime": "150",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "CuisinesString": "indian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Place tapioca in a medium mixing bowl along with the water, cover, and let stand overnight."
+        },
+        {
+          "Number": "2",
+          "Name": "Drain water from tapioca. Place the tapioca into a slow cooker along with the milk, heavy cream, and salt. "
+        },
+        {
+          "Number": "3",
+          "Name": "Cook on high for 2 hours, stirring occasionally"
+        },
+        {
+          "Number": "4",
+          "Name": "In a small bowl, whisk together the egg yolk and sugar. "
+        },
+        {
+          "Number": "5",
+          "Name": "Temper small amounts of the tapioca into the egg mixture until you have added at least 1 cup. Then add this back into the remaining tapioca in the slow cooker. "
+        },
+        {
+          "Number": "6",
+          "Name": "Add the lemon zest and stir to combine"
+        },
+        {
+          "Number": "7",
+          "Name": "Transfer the pudding to a bowl and cover the surface with plastic wrap. Allow to cool at room temperature for 1 hour and then place in the refrigerator until thoroughly chilled. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "tapioca"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "cold"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "heavy cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "pinch"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg yolk"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "lemon"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Corn dogs",
+      "PrepTime": "40",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "8",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,snack,appetizer",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Pour oil into a deep fryer or large heavy pot and heat to 190 degrees C."
+        },
+        {
+          "Number": "2",
+          "Name": "In a medium mixing bowl, combine the cornmeal, flour, salt, baking powder, baking soda, and cayenne pepper. "
+        },
+        {
+          "Number": "3",
+          "Name": "In a separate bowl, combine the jalapeno, corn, onion, and buttermilk. "
+        },
+        {
+          "Number": "4",
+          "Name": "Add the dry ingredients to the wet ingredients all at once, and stir only enough times to bring the batter together; there should be lumps. Set batter aside and allow to rest for 10 minutes. "
+        },
+        {
+          "Number": "5",
+          "Name": "Scatter the cornstarch into a dry pie pan. "
+        },
+        {
+          "Number": "6",
+          "Name": "Roll each hot dog in the cornstarch and tap well to remove any excess. "
+        },
+        {
+          "Number": "7",
+          "Name": "Transfer enough batter to almost fill a large drinking glass. Refill the glass as needed. "
+        },
+        {
+          "Number": "8",
+          "Name": "Place each hot dog on chopsticks, and quickly dip in and out of the batter. "
+        },
+        {
+          "Number": "9",
+          "Name": "Immediately and carefully place each hot dog into the oil, and cook until coating is golden brown, about 4 to 5 minutes."
+        },
+        {
+          "Number": "10",
+          "Name": "With tongs, remove to cooling rack, and allow to drain for 3 to 5 minutes. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "peanut oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornmeal"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "jalapeno pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "canned corn"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "can"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "finely grated"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "hot dog"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "package"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Meatloaf",
+      "PrepTime": "70",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "true",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Heat oven to 160° C"
+        },
+        {
+          "Number": "2",
+          "Name": "In a food processor bowl, combine croutons, black pepper, cayenne pepper, chili powder, and thyme."
+        },
+        {
+          "Number": "3",
+          "Name": "Pulse until the mixture is of a fine texture. Place this mixture into a large bowl."
+        },
+        {
+          "Number": "4",
+          "Name": "Combine the onion, carrot, garlic, and red pepper in the food processor bowl. Pulse until the mixture is finely chopped, but not pureed. "
+        },
+        {
+          "Number": "5",
+          "Name": "Combine the vegetable mixture, ground sirloin, and ground chuck with the bread crumb mixture. Season the meat mixture with the kosher salt."
+        },
+        {
+          "Number": "6",
+          "Name": "Add the egg and combine thoroughly, but avoid squeezing the meat. "
+        },
+        {
+          "Number": "7",
+          "Name": "Pack this mixture into a 10-inch loaf pan to mold the shape of the meatloaf. "
+        },
+        {
+          "Number": "8",
+          "Name": "Onto a parchment paper-lined baking sheet, turn the meatloaf out of the pan onto the center of the tray. Insert a temperature probe at a 45 degree angle into the top of the meatloaf. Avoid touching the bottom of the tray with the probe. Set the probe for 70°."
+        },
+        {
+          "Number": "9",
+          "Name": "Combine the catsup, cumin, Worcestershire sauce, hot pepper sauce and honey"
+        },
+        {
+          "Number": "10",
+          "Name": "Brush the glaze onto the meatloaf after it has been cooking for about 10 minutes. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic croutons"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "170"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chili powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried thyme"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "roughly chopper"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "carrot"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "peeled and broken"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red bell pepper"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ground chuck"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "500"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ground sirloin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "500"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ketchup"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cumin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "worcestershire sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "hot sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Baked meatballs",
+      "PrepTime": "40",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "italian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Heat oven to 200° C"
+        },
+        {
+          "Number": "2",
+          "Name": "In a large mixing bowl, combine the pork, lamb, ground round, spinach, cheese, egg, basil, parsley, garlic powder, salt, red pepper flakes, and 1/4 cup of the bread crumbs. "
+        },
+        {
+          "Number": "3",
+          "Name": "Using your hands, mix all ingredients until well incorporated. Use immediately or place in refrigerator for up to 24 hours. "
+        },
+        {
+          "Number": "4",
+          "Name": "Place the remaining 1/4 cup of bread crumbs into a small bowl. "
+        },
+        {
+          "Number": "5",
+          "Name": "Using a scale, weigh meatballs into 1.5-ounce portions and place on a sheet pan."
+        },
+        {
+          "Number": "6",
+          "Name": "Using your hands, shape the meatballs into rounds, roll in the bread crumbs and place the meatballs in individual, miniature muffin tin cups."
+        },
+        {
+          "Number": "7",
+          "Name": "Bake for 20 minutes or until golden and cooked through. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ground meat"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "frozen spinach"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "150"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parmesan"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parmesan"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "finely grated"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried basil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried parsley"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red pepper flakes"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bread crumbs"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        }
+
+      ]
+    },
+    {
+      "Name": "Sauerbraten",
+      "PrepTime": "530",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "german",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large saucepan over high heat combine the water, cider vinegar, red wine vinegar, onion, carrot, salt, pepper, bay leaves, cloves, juniper, and mustard seeds. "
+        },
+        {
+          "Number": "2",
+          "Name": "Cover and bring this to a boil, then lower the heat and simmer for 10 minutes. Set aside to cool. "
+        },
+        {
+          "Number": "3",
+          "Name": "Pat the bottom round dry and rub with vegetable oil and salt on all sides."
+        },
+        {
+          "Number": "4",
+          "Name": "Heat a large sauté pan over high heat; add the meat and brown on all sides, approximately 2 to 3 minutes per side. "
+        },
+        {
+          "Number": "5",
+          "Name": "When the marinade has cooled to a point where you can stick your finger in it and not be burned, place the meat in a non-reactive vessel and pour over the marinade. "
+        },
+        {
+          "Number": "6",
+          "Name": "After hours of marinating, preheat the oven to 160 degrees C."
+        },
+        {
+          "Number": "7",
+          "Name": "Add the sugar to the meat and marinade, cover and place on the middle rack of the oven and cook until tender, approximately 4 hours.  "
+        },
+        {
+          "Number": "8",
+          "Name": "After hours of marinating, preheat the oven to 160 degrees C."
+        },
+        {
+          "Number": "9",
+          "Name": "Strain the liquid to remove the solids. Return the liquid to the pan and place over medium-high heat."
+        },
+        {
+          "Number": "10",
+          "Name": "Whisk in the gingersnaps and cook until thickened, stirring occasionally."
+        },
+        {
+          "Number": "11",
+          "Name": "Strain the sauce through a fine mesh sieve to remove any lumps. "
+        },
+        {
+          "Number": "12",
+          "Name": "Add the raisins if desired. Slice the meat and serve with the sauce."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cider vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red wine vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "carrot"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bay leaf"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "juniper berry"
+            }
+          },
+          "Measurement": "12"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mustard seeds"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bottom round"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "gingersnap"
+            }
+          },
+          "Measurement": "18"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "raisins"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        }
+      ]
+    },
+    {
+      "Name": "Spicy beef kebab",
+      "PrepTime": "530",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "middleEastern",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Cut the beef into 1 1/2 to 1 3/4-inch cubes and place into a large mixing bowl. Set aside. "
+        },
+        {
+          "Number": "2",
+          "Name": "In the bowl of a food processor combine the garlic, paprika, turmeric, cumin, salt, pepper and red wine vinegar. "
+        },
+        {
+          "Number": "3",
+          "Name": "With the processor running drizzle in the olive oil. "
+        },
+        {
+          "Number": "4",
+          "Name": "Pour the marinade over the meat and toss to coat."
+        },
+        {
+          "Number": "5",
+          "Name": "Place in the refrigerator in an airtight container or a sealable plastic bag and allow to marinate for 2 to 4 hours."
+        },
+        {
+          "Number": "6",
+          "Name": "Preheat the grill to medium-high heat. "
+        },
+        {
+          "Number": "7",
+          "Name": "Thread the meat onto the skewers leaving about 1/2-inch in between the pieces of meat. "
+        },
+        {
+          "Number": "8",
+          "Name": "Place on the grill and cook, with lid lowered, 2 to 3 minutes per side, 8 to 12 minutes in all (8 minutes for rare and 12 for medium). "
+        },
+        {
+          "Number": "9",
+          "Name": "Remove from the heat to aluminum foil, wrap and allow to rest for 2 to 3 minutes prior to serving."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "beef sirloin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.8"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "smoked paprika"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "turmeric"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "ground"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cumin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "ground"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "olive oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red wine vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+        }
+      ]
+    },
+    {
+      "Name": "City ham",
+      "PrepTime": "720",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "10",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "german",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Heat oven to 180° C"
+        },
+        {
+          "Number": "2",
+          "Name": "Remove ham from bag, rinse and drain thoroughly. Place ham, cut side down, in a roasting pan."
+        },
+        {
+          "Number": "3",
+          "Name": "Using a small paring knife or clean utility knife set to the smallest blade setting, score the ham from bottom to top, spiraling clockwise as you cut. (If you’re using a paring knife, be careful to only cut through the skin and first few layers of fat)"
+        },
+        {
+          "Number": "4",
+          "Name": "Rotate the ham after each cut so that the scores are no more than 2-inches across."
+        },
+        {
+          "Number": "5",
+          "Name": "Once you’ve made it all the way around, move the knife to the other hand and repeat, spiraling counter clockwise. The aim is to create a diamond pattern all over the ham. (Don’t worry too much about precision here.) "
+        },
+        {
+          "Number": "6",
+          "Name": "Tent the ham with heavy duty foil, insert a thermometer, and cook for 3 to 4 hours or until the internal temperature at the deepest part of the meat registers 60° C."
+        },
+        {
+          "Number": "7",
+          "Name": "Remove and use tongs to pull away the diamonds of skin and any sheets of fat that come off with them."
+        },
+        {
+          "Number": "8",
+          "Name": "Dab dry with paper towels, then brush on a liberal coat of mustard, using either a basting brush or a clean paint brush (clean as in never-touched paint). "
+        },
+        {
+          "Number": "9",
+          "Name": "Sprinkle on brown sugar, packing loosely as you go until the ham is coated. "
+        },
+        {
+          "Number": "10",
+          "Name": "Spritz this layer lightly with bourbon, then loosely pack on as much of the crushed cookies as you can.  "
+        },
+        {
+          "Number": "11",
+          "Name": "Insert the thermometer (don’t use the old hole) and return to the oven (uncovered). Cook until interior temperature reaches 65° C, approximately 1 hour. Let the roast rest for 1/2 hour before carving. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ham"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.8"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mustard"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bourbon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "gingersnap"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Bacon",
+      "PrepTime": "720",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "10",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large non-reactive pot, bring half the water, 1 cup of sugar, salt, and molasses to a boil. Stir to dissolve the sugar. "
+        },
+        {
+          "Number": "2",
+          "Name": "Pour into a large container with the remaining water, and the apple cider."
+        },
+        {
+          "Number": "3",
+          "Name": "Place in the refrigerator and cool."
+        },
+        {
+          "Number": "4",
+          "Name": "Press the black pepper into the pork belly. "
+        },
+        {
+          "Number": "5",
+          "Name": "Once the brine has cooled place the peppered pork belly into the mixture until completely submerged. Refrigerate for few hours."
+        },
+        {
+          "Number": "6",
+          "Name": "Remove the pork from the brine and pat dry with paper towels"
+        },
+        {
+          "Number": "7",
+          "Name": "Lay on a rack over a sheet pan and place in front of a fan for 1 hour to form a pellicle. Lay the pork in the protein box of a cold smoker and smoke for 4 to 6 hours."
+        },
+        {
+          "Number": "8",
+          "Name": "Chill the meat in the freezer for 1 hour to stiffen for easy slicing into strips of bacon. "
+        },
+        {
+          "Number": "9",
+          "Name": "Slice what you need and keep the remainder in a freezer safe bag in the refrigerator or freezer. "
+        },
+        {
+          "Number": "10",
+          "Name": " Place the strips of bacon onto a sheet pan fitted with a rack and place into a cold oven. Turn the oven to 200° and cook for about 12 to 15 minutes, depending on how crispy you like your bacon. "
+        },
+        {
+          "Number": "11",
+          "Name": "Remove from rack and drain on paper towels. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork belly"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "molasses"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "apple cider"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Sweet and sour pork",
+      "PrepTime": "60",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "chinese",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large non-reactive bowl, combine soy, garlic, ginger, flour, and cornstarch. "
+        },
+        {
+          "Number": "2",
+          "Name": "Season the pork generously with salt and pepper."
+        },
+        {
+          "Number": "3",
+          "Name": "Place the pork in the bowl and toss to cover. Marinate in the refrigerator overnight."
+        },
+        {
+          "Number": "4",
+          "Name": "Drain off any excess marinade and dredge the pork in flour seasoned with salt and pepper."
+        },
+        {
+          "Number": "5",
+          "Name": "In a large frying pan heat 1-inch of oil to 180° C."
+        },
+        {
+          "Number": "6",
+          "Name": "Fry the pork in batches, until golden brown. Drain on paper towels. Reserve on a warm plate. "
+        },
+        {
+          "Number": "7",
+          "Name": "In a separate bowl, combine the ketchup, sugar, vinegar, and honey. Whisk to blend."
+        },
+        {
+          "Number": "8",
+          "Name": " In a small roasting pan heat the canola and sesame oils. "
+        },
+        {
+          "Number": "9",
+          "Name": "Place the pork and vegetables into the pan and cover with the ketchup mixture. "
+        },
+        {
+          "Number": "10",
+          "Name": "Bring to a simmer and cook until the pork is tender. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "soy sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "minced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ginger"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "minced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork butt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ketchup"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red wine vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sesame oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "diced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "celery"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "diced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "carrot"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "sliced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red bell pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "diced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "green bell pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "diced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pineapple"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "cut into cubes"
+        }
+      ]
+    },
+    {
+      "Name": "Stuffed grilled pork chops",
+      "PrepTime": "40",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "german",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a plastic container put the salt, sugar, peppercorns, and mustard powder."
+        },
+        {
+          "Number": "2",
+          "Name": "Add the hot vinegar and swirl to dissolve. Let mixture sit for 5 to 10 minutes to develop flavor."
+        },
+        {
+          "Number": "3",
+          "Name": "Add ice cubes and shake to melt most of the ice"
+        },
+        {
+          "Number": "4",
+          "Name": "Add chops and cover with brine. Refrigerate for 2 hours."
+        },
+        {
+          "Number": "5",
+          "Name": "Remove chops from container and rinse. "
+        },
+        {
+          "Number": "6",
+          "Name": "Cut horizontal pockets in each pork chop for stuffing."
+        },
+        {
+          "Number": "7",
+          "Name": "Combine rest of ingredients, and put into piping bag that is not fitted with a tip."
+        },
+        {
+          "Number": "8",
+          "Name": " Pipe each chop full with cornbread mixture. "
+        },
+        {
+          "Number": "9",
+          "Name": "Grill the chops on medium high heat for 6 minutes on each side. "
+        },
+        {
+          "Number": "10",
+          "Name": "Turn each chop 45 degrees after 3 minutes to mark.  "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black peppercorn"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mustard powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cider vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ice cube"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork chop"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "piece"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornbread"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": "crumbled"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "raisins"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "walnuts"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried cherries"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sage leaves"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "thinly sliced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        }
+      ]
+    },
+    {
+      "Name": "Ribs",
+      "PrepTime": "515",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "8",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 120°."
+        },
+        {
+          "Number": "2",
+          "Name": "In a bowl, combine all dry ingredients and mix well."
+        },
+        {
+          "Number": "3",
+          "Name": "Place each slab of baby back ribs on a piece of heavy-duty aluminum foil, shiny side down. "
+        },
+        {
+          "Number": "4",
+          "Name": "Sprinkle each side generously with the dry rub. Pat the dry rub into the meat. Refrigerate the ribs for a minimum of 1 hour. "
+        },
+        {
+          "Number": "5",
+          "Name": "In a microwavable container, combine all ingredients for the braising liquid. Cook for 1 minute. "
+        },
+        {
+          "Number": "6",
+          "Name": "Place the ribs on a baking sheet."
+        },
+        {
+          "Number": "7",
+          "Name": "Open one end of the foil on each slab and pour half of the braising liquid into each foil packet. "
+        },
+        {
+          "Number": "8",
+          "Name": "Tilt the baking sheet in order to equally distribute the braising liquid."
+        },
+        {
+          "Number": "9",
+          "Name": "Braise the ribs in the oven for 2 1/2 hours. Transfer the braising liquid into a medium saucepot. "
+        },
+        {
+          "Number": "10",
+          "Name": " Bring the liquid to a simmer and reduce by half or until of a thick syrup consistency. Brush the glaze onto the ribs."
+        },
+        {
+          "Number": "11",
+          "Name": "Place under the broiler just until the glaze caramelizes lightly."
+        },
+        {
+          "Number": "12",
+          "Name": "Slice each slab into 2 rib bone portions. Place the remaining hot glaze into a bowl and toss the rib portions in the glaze."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "8"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chili powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "jalapeno seasoning"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried thyme"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork ribs"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "slab"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "white wine"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "white wine vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "worcestershire sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Pulled pork",
+      "PrepTime": "2880",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "8",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Combine molasses, pickling salt, and water"
+        },
+        {
+          "Number": "2",
+          "Name": "Add Boston butt making sure it is completely submerged in brine, cover, and let sit in refrigerator for a minimum of 8 hours. 12 hours is ideal. "
+        },
+        {
+          "Number": "3",
+          "Name": "Place cumin seed, fennel seed, and coriander in food grinder and grind fine."
+        },
+        {
+          "Number": "4",
+          "Name": "Transfer to a small mixing bowl and stir in chili powder, onion powder, and paprika."
+        },
+        {
+          "Number": "5",
+          "Name": "Remove Boston butt from brine and pat dry. "
+        },
+        {
+          "Number": "6",
+          "Name": "Sift the rub evenly over the shoulder and then pat onto the meat making sure as much of the rub as possible adheres. More rub will adhere to the meat if you are wearing latex gloves during the application. "
+        },
+        {
+          "Number": "7",
+          "Name": "Preheat smoker to 120 degrees C.  "
+        },
+        {
+          "Number": "8",
+          "Name": "Place butt in smoker and cook for 10 to 12 hours, maintaining a temperature of 120 degrees F. Begin checking meat for doneness after 10 hours of cooking time. Use fork to check for doneness. Meat is done when it falls apart easily when pulling with a fork. "
+        },
+        {
+          "Number": "9",
+          "Name": "Once done, remove from pot and set aside to rest for at least 1 hour. Pull meat apart with 2 forks and serve as sandwich with coleslaw and dressing as desired.  "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "molasses"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork butt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cumin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fennel seed"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "coriander"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chili powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "smoked paprika"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Potstickers",
+      "PrepTime": "70",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "chinese",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 90 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Combine the first 11 ingredients in a medium-size mixing bowl (pork through cayenne). Set aside. "
+        },
+        {
+          "Number": "3",
+          "Name": "To form the dumplings, remove 1 wonton wrapper from the package, covering the others with a damp cloth. "
+        },
+        {
+          "Number": "4",
+          "Name": "Brush 2 of the edges of the wrapper lightly with water."
+        },
+        {
+          "Number": "5",
+          "Name": "Place 1/2 rounded teaspoon of the pork mixture in the center of the wrapper. "
+        },
+        {
+          "Number": "6",
+          "Name": "Fold over, seal edges, and shape as desired. Set on a sheet pan and cover with a damp cloth. Repeat procedure until all of the filling is gone."
+        },
+        {
+          "Number": "7",
+          "Name": "Heat a 12-inch sauté pan over medium heat."
+        },
+        {
+          "Number": "8",
+          "Name": "Brush with vegetable oil once hot. "
+        },
+        {
+          "Number": "9",
+          "Name": "Add 8 to 10 potstickers at a time to the pan and cook for 2 minutes, without touching. "
+        },
+        {
+          "Number": "10",
+          "Name": "Once the 2 minutes are up, gently add 1/3 cup chicken stock to the pan, turn the heat down to low, cover, and cook for another 2 minutes."
+        },
+        {
+          "Number": "11",
+          "Name": "Remove wontons to a heatproof platter and place in the warm oven. Clean the pan in between batches by pouring in water and allowing the pan to deglaze. "
+        },
+        {
+          "Number": "12",
+          "Name": " Repeat until all the wontons are cooked. Serve immediately."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ground meat"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chives"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": "finely chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red bell pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "finely chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ketchup"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mustard"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "worcestershire sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "wonton wrapper"
+            }
+          },
+          "Measurement": "35"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken stock"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.3"
+        }
+      ]
+    },
+    {
+      "Name": "Gyro meat with tzatziki sauce",
+      "PrepTime": "180",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "greek,mediterranean",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Process the onion in a food processor for 10 to 15 seconds and turn out into the center of a tea towel. "
+        },
+        {
+          "Number": "2",
+          "Name": "Gather up the ends of the towel and squeeze until almost all of the juice is removed. Discard juice."
+        },
+        {
+          "Number": "3",
+          "Name": "Return the onion to the food processor and add the lamb, garlic, marjoram, rosemary, salt, and pepper and process until it is a fine paste, approximately 1 minute. "
+        },
+        {
+          "Number": "4",
+          "Name": "Stop the processor as needed to scrape down sides of bowl. "
+        },
+        {
+          "Number": "5",
+          "Name": "Form the meat mixture into a loaf shape and place on top of 2 overlapping pieces of plastic wrap that are at least 18 inches long."
+        },
+        {
+          "Number": "6",
+          "Name": "Roll the mixture in the plastic wrap tightly, making sure to remove any air pockets. "
+        },
+        {
+          "Number": "7",
+          "Name": "Once the meat is completely rolled in the wrap, twist the ends of the plastic wrap until the surface of the wrap is tight. "
+        },
+        {
+          "Number": "8",
+          "Name": "Store in the refrigerator for at least 2 hours or up to overnight, to allow the mixture to firm up."
+        },
+        {
+          "Number": "9",
+          "Name": "Preheat the grill to high."
+        },
+        {
+          "Number": "10",
+          "Name": "Place the meat onto the skewer. Place a double-thick piece of aluminum foil folded into a tray directly under the meat to catch any drippings. "
+        },
+        {
+          "Number": "11",
+          "Name": "Cook on high for 15 minutes. Decrease the heat to medium and continue to cook for another 20 to 30 minutes."
+        },
+        {
+          "Number": "12",
+          "Name": "Turn off the heat and allow to continue to spin for another 10 to 15 minutes. Slice and serve on pita bread with tzatziki sauce, chopped onion, tomatoes, and feta cheese. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ground meat"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "finely chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried marjoram"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried rosemary"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "tomato"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "feta cheese"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "100"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "yogurt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "250"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cucumber"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red wine vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "olive oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mint"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "leaf"
+            }
+          },
+          "Measurement": "5"
+        }
+      ]
+    },
+    {
+      "Name": "Chicken kiev",
+      "PrepTime": "150",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Combine butter, parsley, tarragon, 1 teaspoon salt, and 1/4 teaspoon black pepper in the bowl of a stand mixer."
+        },
+        {
+          "Number": "2",
+          "Name": "Place mixture on plastic wrap or waxed paper and roll into small log; place in freezer. "
+        },
+        {
+          "Number": "3",
+          "Name": "Place chicken breasts, 1 at a time, between 2 pieces of plastic wrap. "
+        },
+        {
+          "Number": "4",
+          "Name": "Squirt chicken lightly with water and squirt the top of the plastic wrap as well. "
+        },
+        {
+          "Number": "5",
+          "Name": "Season each piece of chicken with salt and pepper. "
+        },
+        {
+          "Number": "6",
+          "Name": "Lay 1 chicken breast on a new piece of plastic wrap and place 1/4 of the compound butter and 1 tablespoon bread crumbs in the center of each breast. "
+        },
+        {
+          "Number": "7",
+          "Name": "Using the plastic wrap to assist, fold in ends of breast and roll breast into a log, completely enclosing the butter; roll very tightly. Repeat with each breast. "
+        },
+        {
+          "Number": "8",
+          "Name": "Place chicken in refrigerator for 2 hours, or up to overnight. "
+        },
+        {
+          "Number": "9",
+          "Name": " Place egg and water mixture in 1 pie pan and 2 cups bread crumbs in a different pie pan"
+        },
+        {
+          "Number": "10",
+          "Name": " Heat 1/2-inch of vegetable oil in a 12-inch sauté pan over medium-high heat until oil reaches 190 degrees C"
+        },
+        {
+          "Number": "11",
+          "Name": " Dip each breast in the egg mixture and then roll in the bread crumbs."
+        },
+        {
+          "Number": "12",
+          "Name": " Gently place each breast in oil, sealed-side down, and cook until golden brown, approximately 4 to 5 minutes on each side. Remove to a cooling rack set in sheet pan and allow to drain for 5 to 10 minutes before serving."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "8"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried parsley"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried tarragon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken breast"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bread crumbs"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.2"
+        }
+      ]
+    },
+    {
+      "Name": "Curry chicken pot pie",
+      "PrepTime": "55",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "indian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 200 degrees C."
+        },
+        {
+          "Number": "2",
+          "Name": "Toss frozen vegetables with canola oil and spread evenly onto a sheet pan. Place into oven and cook until golden brown."
+        },
+        {
+          "Number": "3",
+          "Name": "In a sauté pan heat 1 tablespoon of butter and sweat the onion and celery "
+        },
+        {
+          "Number": "4",
+          "Name": "In another saucepan, heat the broth and milk. "
+        },
+        {
+          "Number": "5",
+          "Name": "Add 2 more tablespoons of butter to the celery mix and cook out the water. "
+        },
+        {
+          "Number": "6",
+          "Name": "Add the flour and curry and cook for 1 to 2 minutes. "
+        },
+        {
+          "Number": "7",
+          "Name": "Whisk in the hot milk mixture and cook until thickened."
+        },
+        {
+          "Number": "8",
+          "Name": "Add the parsley, salt and pepper. Toss the browned vegetables and the chicken."
+        },
+        {
+          "Number": "9",
+          "Name": " Place egg and water mixture in 1 pie pan and 2 cups bread crumbs in a different pie pan"
+        },
+        {
+          "Number": "10",
+          "Name": " Pour into a shallow baking pan, or a large terra cotta pot base, lined with foil, and top with 6 to 8 circles of puff pastry. "
+        },
+        {
+          "Number": "11",
+          "Name": " Place into the oven and cook until puff pastry has browned and the mixture is hot and bubbly, about 25 minutes.."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "frozen vegetable mix"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "chopped"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "celery"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken stock"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "curry powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dried parsley"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken breast"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "cooked, cut into cubes"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "puff pastry"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "package"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Coq au vin",
+      "PrepTime": "1560",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Cut off the root end of each pearl onion and make an \"x\" with your knife in its place."
+        },
+        {
+          "Number": "2",
+          "Name": "Bring 2 to 3 cups of water to a boil and drop in the onions for 1 minute."
+        },
+        {
+          "Number": "3",
+          "Name": "Remove the onions from the pot, allow them to cool, and then peel. You should be able to slide the onions right out of their skin. Set aside. "
+        },
+        {
+          "Number": "4",
+          "Name": "Sprinkle the chicken on all sides with kosher salt and freshly ground black pepper. "
+        },
+        {
+          "Number": "5",
+          "Name": "Place the chicken pieces, a few at a time, into a large (1 or 2-gallon) sealable plastic bag along with the flour. "
+        },
+        {
+          "Number": "6",
+          "Name": "Shake to coat all of the pieces of the chicken. Remove the chicken from the bag to a metal rack. "
+        },
+        {
+          "Number": "7",
+          "Name": "Add the 2 tablespoons of water to a large, 12-inch sauté pan over medium heat along with the salt pork. "
+        },
+        {
+          "Number": "8",
+          "Name": "Cover and cook until the water is gone, and then continue to cook until the salt pork cubes are golden brown and crispy, approximately 8 to 10 minutes. "
+        },
+        {
+          "Number": "9",
+          "Name": "Remove the salt pork from the pan and set aside."
+        },
+        {
+          "Number": "10",
+          "Name": "In the same pan, using the remaining fat, add the pearl onions, sprinkle with salt and pepper, and sauté until lightly brown, approximately 8 to 10 minutes. Remove the onions from the pan and set aside. "
+        },
+        {
+          "Number": "11",
+          "Name": "Next, brown the chicken pieces on each side until golden brown, working in batches if necessary to not overcrowd the pan."
+        },
+        {
+          "Number": "12",
+          "Name": "Transfer the chicken into a 7 to 8-quart enameled cast iron Dutch oven."
+        },
+        {
+          "Number": "13",
+          "Name": "Add the mushrooms to the same 12-inch sauté pan, adding the 1 tablespoon of butter if needed, and sauté until they give up their liquid, approximately 5 minutes. "
+        },
+        {
+          "Number": "14",
+          "Name": "Store the onions, mushrooms and pork in an airtight container in the refrigerator until ready to use. "
+        },
+        {
+          "Number": "15",
+          "Name": "Pour off any remaining fat and deglaze the pan with approximately 1 cup of the wine."
+        },
+        {
+          "Number": "16",
+          "Name": "Pour this into the Dutch oven along with the chicken stock, tomato paste, quartered onion, carrots, celery, garlic, thyme, and bay leaf.  Add all of the remaining wine. Cover and refrigerate overnight. "
+        },
+        {
+          "Number": "17",
+          "Name": "The next day, preheat the oven to 160 degrees C."
+        },
+        {
+          "Number": "18",
+          "Name": " Place the chicken in the oven and cook for 2 to 2 1/2 hours, or until the chicken is tender. Maintain a very gentle simmer and stir occasionally"
+        },
+        {
+          "Number": "19",
+          "Name": "Once the chicken is done, remove it to a heatproof container, cover, and place it in the oven to keep warm. "
+        },
+        {
+          "Number": "20",
+          "Name": " Strain the sauce in a colander and remove the carrots, onion, celery, thyme, garlic, and bay leaf. ."
+        },
+        {
+          "Number": "21",
+          "Name": " Return the sauce to the pot, place over medium heat, and reduce by 1/3. Depending on how much liquid you actually began with, this should take 20 to 45 minutes. "
+        },
+        {
+          "Number": "22",
+          "Name": " Once the sauce has thickened, add the pearl onions, mushrooms, and pork and cook for another 15 minutes or until the heated through. "
+        },
+        {
+          "Number": "23",
+          "Name": "Taste and adjust seasoning if necessary, remove from the heat, add the chicken and serve. Serve over egg noodles, if desired."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pearl onion"
+            }
+          },
+          "Measurement": "25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken thigh"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bacon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "slab"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mushrooms"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "230"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red wine"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "bottle"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken stock"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "tamato paste"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "celery"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "stalk"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "carrot"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bay leaf"
+            }
+          },
+          "Measurement": "1"
+        }
+      ]
+    },
+    {
+      "Name": "Turkey piccata",
+      "PrepTime": "1560",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "italian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 100 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "Cut the turkey breast crosswise into 1/2-inch pieces."
+        },
+        {
+          "Number": "3",
+          "Name": "Place pieces of turkey, 1 at a time, between 2 pieces of plastic wrap. "
+        },
+        {
+          "Number": "4",
+          "Name": "Squirt the meat lightly with water and squirt the top of the plastic wrap as well."
+        },
+        {
+          "Number": "5",
+          "Name": "Pound to no less than 1/8 inch thickness. "
+        },
+        {
+          "Number": "6",
+          "Name": "Season both sides of meat with salt and pepper and then dredge in flour. Shake off the excess flour. Set aside.  "
+        },
+        {
+          "Number": "7",
+          "Name": "In a large sauté pan over medium to medium high heat, heat olive oil and 4 tablespoons butter.  "
+        },
+        {
+          "Number": "8",
+          "Name": "Once hot, but not yet smoking, brown turkey scaloppini quickly, about 1 minute on each side, and remove to an ovenproof platter. Place in oven to keep warm. "
+        },
+        {
+          "Number": "9",
+          "Name": "Reduce the heat to low and add the shallots to the pan. Sauté for 1 to 2 minutes or until they begin to turn translucent"
+        },
+        {
+          "Number": "10",
+          "Name": "Add wine and lemon juice to the pan and simmer until slightly reduced, about 2 minutes. "
+        },
+        {
+          "Number": "11",
+          "Name": "Add remaining 2 tablespoons butter and whisk to combine."
+        },
+        {
+          "Number": "12",
+          "Name": "Season with salt and pepper, to taste, if necessary. Pour sauce over turkey, sprinkle with parsley, and serve immediately. "
+        } 
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "turkey breast"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "olive oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "shallot"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "finely chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "white wine"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "lemon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "juice"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parsley"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "chopped"
+        }
+      ]
+    }
+  ]
+}

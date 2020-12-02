@@ -1,0 +1,70 @@
+﻿@*@model RecipeSearch.Utility.PaginatedList<RecipeSearch.Models.ViewModels.RecipeHeaderVM>*@
+@{
+    ViewData["Title"] = "My recipes";
+}
+<div class="container" id="statusMessage">
+
+</div>
+<br />
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+</div>
+<hr class="solid">
+<div class="col-12 text-right">
+    <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create new recipe</a>
+</div>
+<div id="data">
+
+</div>
+
+
+
+@section Scripts{
+    <script>
+        function LoadData(pageNumber) {
+            var hostString = window.location.protocol + "//" + window.location.host + "/";
+            if (pageNumber == undefined) {
+                url = hostString + "User/Recipe/GetAllJson";
+            } else {
+                url = hostString + "User/Recipe/GetAllJson/" + pageNumber;
+            }
+            $.get({
+                url: url,
+                success: function (data) {
+                    $("#data").html(data);
+                }
+            });
+        }
+        function Delete(url) {
+            swal({
+                title: "Are you sure you want to Delete?",
+                text: "You will not be able to restore the data!",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true
+            }).then((willDelete) => {
+                if (willDelete) {
+                    $.ajax({
+                        type: "DELETE",
+                        url: url,
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                LoadData();
+                            }
+                            else {
+                                toastr.error(data.message);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        $(document).ready(function () {
+            LoadData();
+        });
+    </script>
+
+}

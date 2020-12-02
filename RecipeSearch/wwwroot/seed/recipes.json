@@ -1,0 +1,5351 @@
+{
+  "Recipe": [
+    {
+      "Name": "Garlic bread",
+      "Summary": "Quick and easy snack, perfect for get-togethers!",
+      "PrepTime": "10",
+      "Servings": "10",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "true",
+      "NoGluten": "false",
+      "Vegan": "true",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "CuisinesString": "mediterranean,italian",
+      "MealTypesString": "appetizer,snack",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven on broiler setting."
+        },
+        {
+          "Number": "2",
+          "Name": "Place a rack approximately 6 inches from broiler"
+        },
+        {
+          "Number": "3",
+          "Name": "Slice the loaf of bread, on the bias, into 3/4-inch slices"
+        },
+        {
+          "Number": "4",
+          "Name": "Place bread in oven on sheet pan and broil until golden brown on both sides, approximately 2 minutes for the first side and 1 to 1 1/2 for second side."
+        },
+        {
+          "Number": "5",
+          "Name": "Remove to a platter and rub each slice of bread with the garlic and then brush with olive oil."
+        },
+        {
+          "Number": "6",
+          "Name": "Place bread in oven on sheet pan and broil until golden brown on both sides, approximately 2 minutes for the first side and 1 to 1 1/2 for second side."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bread"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "loaf"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "narrow, Italian or French"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "head"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "olive oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "extra virgin"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "pinch"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "pinch"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        }
+      ]
+    },
+    {
+      "Name": "Welsh rarebit",
+      "Summary": "",
+      "PrepTime": "15",
+      "Servings": "4",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "CuisinesString": "british",
+      "MealTypesString": "appetizer,snack",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a medium saucepan over low heat, melt the butter and whisk in the flour."
+        },
+        {
+          "Number": "2",
+          "Name": "Cook, whisking constantly for 2 to 3 minutes, being careful not to brown the flour."
+        },
+        {
+          "Number": "3",
+          "Name": "Whisk in mustard, Worcestershire sauce, salt, and pepper until smooth."
+        },
+        {
+          "Number": "4",
+          "Name": "Add beer and whisk to combine. "
+        },
+        {
+          "Number": "5",
+          "Name": "Pour in cream and whisk until well combined and smooth. "
+        },
+        {
+          "Number": "6",
+          "Name": "Gradually add cheese, stirring constantly, until cheese melts and sauce is smooth; this will take 4 to 5 minutes."
+        },
+        {
+          "Number": "7",
+          "Name": "Add hot sauce."
+        },
+        {
+          "Number": "8",
+          "Name": "Pour over toast and serve immediately."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "unsalted"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "dijon mustard"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "worcestershire sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "beer"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "heavy cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cheddar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "hot sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "drop"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bread"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "slice"
+            }
+          },
+          "Measurement": "4",
+          "Comment": "best rye bread, toasted"
+        }
+      ]
+    },
+    {
+      "Name": "Mango chutney",
+      "Summary": "",
+      "PrepTime": "60",
+      "Servings": "4",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "true",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "CuisinesString": "indian",
+      "MealTypesString": "appetizer,snack",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Cut the mango flesh away from the pit. The pit is shaped similar to an obelisk, so you'll end up with 2 large pieces and 2 smaller pieces from each mango. Roughly chop the flesh."
+        },
+        {
+          "Number": "2",
+          "Name": "In a sauté pan heat the oil and add the chile flakes. Be careful not to burn the chile, just toast to flavor the oil. "
+        },
+        {
+          "Number": "3",
+          "Name": "Add the onions and sweat until soft."
+        },
+        {
+          "Number": "4",
+          "Name": "Add the ginger and bell pepper and sauté for 1 to 2 minutes."
+        },
+        {
+          "Number": "5",
+          "Name": "Finally add the mango and cook for 1 more minute. "
+        },
+        {
+          "Number": "6",
+          "Name": "In a separate bowl, combine the pineapple juice, vinegar, sugar, and curry powder. "
+        },
+        {
+          "Number": "7",
+          "Name": "Add this mixture to the pan. Stir to combine. Bring the mixture to a bare simmer and reduce for about 30 minutes, stirring frequently."
+        },
+        {
+          "Number": "8",
+          "Name": "Season with salt and pepper."
+        },
+        {
+          "Number": "9",
+          "Name": "Add the raisins and the nuts and transfer to another container over an ice bath. I used a mild yellow curry powder, but if you want it hotter go for red."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "mango"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "pound"
+            }
+          },
+          "Measurement": "4",
+          "Comment": "fresh, ripe but not too soft, peeled"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chile flakes"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red onion"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.5",
+          "Comment": "chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ginger"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": "minced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red bell pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "diced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pineapple juice"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "ounce"
+            }
+          },
+          "Measurement": "8",
+          "Comment": "unsweetened"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cider vinegar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "ounce"
+            }
+          },
+          "Measurement": "4",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "curry powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "raisins"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "macadamia nuts"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        }
+      ]
+    },
+    {
+      "Name": "Spicy pineapple slices",
+      "Summary": "",
+      "PrepTime": "20",
+      "Servings": "6",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "true",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "appetizer,snack",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a small bowl mix the salt, chile powder, and brown sugar."
+        },
+        {
+          "Number": "2",
+          "Name": "\"Sprinkle over both sides of the pineapple slices."
+        },
+        {
+          "Number": "3",
+          "Name": "Place pineapple slices onto a preheated, oiled grill or grill pan on high heat for 1 minute on each side. "
+        },
+        {
+          "Number": "4",
+          "Name": "Reduce heat to low and continue cooking for 2 to 3 minutes per side or until the pineapple has softened and the sugar has caramelized on the edges. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pineapple"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "slice"
+            }
+          },
+          "Measurement": "6",
+          "Comment": "fresh, ripe but not too soft, peeled"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chile powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        }
+      ]
+    },
+    {
+      "Name": "Pumpkin bread",
+      "PrepTime": "95",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "appetizer,snack,breakfast,dessert",
+      "CuisinesString": "amercian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat the oven to 325°C"
+        },
+        {
+          "Number": "2",
+          "Name": "Sift the flour, cinnamon, baking soda, baking powder, and salt together."
+        },
+        {
+          "Number": "3",
+          "Name": "In a separate bowl, mix the sugar, vegetable oil, eggs, and vanilla."
+        },
+        {
+          "Number": "4",
+          "Name": "Combine both mixtures and fold in the shredded pumpkin and pumpkin seeds."
+        },
+        {
+          "Number": "5",
+          "Name": "Once the ingredients are all incorporated pour into a non- stick 9 by 5 by 3-inch loaf pan. If your pan is not non-stick coat it with butter and flour."
+        },
+        {
+          "Number": "6",
+          "Name": "Bake for 1 hour and 15 minutes. At this point a knife inserted into the middle of the loaf should come out clean."
+        },
+        {
+          "Number": "7",
+          "Name": "Cool for 15 minutes and turn out onto a cooling rack. Cool completely. "
+        },
+        {
+          "Number": "8",
+          "Name": "For muffins temperature should also be 325° F, but bake for 30 minutes. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cinnamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "3",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pumpkin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "3",
+          "Comment": "shredded"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pumpkin seeds"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "toasted"
+
+        }
+      ]
+    },
+    {
+      "Name": "Scones",
+      "PrepTime": "30",
+      "Servings": "4",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "snack,breakfast,dessert",
+      "CuisinesString": "british",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Heat oven to 190°C"
+        },
+        {
+          "Number": "2",
+          "Name": "In a large mixing bowl, combine flour, baking powder, salt and sugar. Mix well."
+        },
+        {
+          "Number": "3",
+          "Name": "Cut in butter and shortening."
+        },
+        {
+          "Number": "4",
+          "Name": "In a separate bowl, combine cream with beaten egg then add to dry ingredients. "
+        },
+        {
+          "Number": "5",
+          "Name": "Stir in fruit."
+        },
+        {
+          "Number": "6",
+          "Name": "Turn dough out onto a floured surface. "
+        },
+        {
+          "Number": "7",
+          "Name": "Roll dough out and cut into biscuit size rounds."
+        },
+        {
+          "Number": "8",
+          "Name": "Bake for 15 minutes or until brown."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "4",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sour cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "6",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "raisins"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Waffles",
+      "PrepTime": "30",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "2",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "breakfast,dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat waffle iron according to manufacturer's directions. "
+        },
+        {
+          "Number": "2",
+          "Name": "In a medium bowl whisk together the flours, soda, baking powder, salt, and sugar."
+        },
+        {
+          "Number": "3",
+          "Name": "In another bowl beat together eggs and melted butter, and then add the buttermilk."
+        },
+        {
+          "Number": "4",
+          "Name": "Add the wet ingredients to the dry and stir until combined. Allow to rest for 5 minutes."
+        },
+        {
+          "Number": "5",
+          "Name": "Ladle the recommended amount of waffle batter onto the iron according to the manufacturer's recommendations. "
+        },
+        {
+          "Number": "6",
+          "Name": "Close iron top and cook until the waffle is golden on both sides and is easily removed from iron."
+        },
+        {
+          "Number": "7",
+          "Name": "Serve immediately or keep warm oven until ready to serve."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "4.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "3",
+          "Comment": "beaten"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "whole-wheat flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "4.75",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "melted"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Southern biscuits",
+      "PrepTime": "40",
+      "Servings": "4",
+      "Source": "The Good Eats Cookbook",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "snack,breakfast,dessert",
+      "CuisinesString": "american,british",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large mixing bowl, combine flour, baking powder, baking soda and salt."
+        },
+        {
+          "Number": "2",
+          "Name": "Using your fingertips, rub butter into dry ingredients until mixture looks like crumbs. (The faster the better, you don't want the fats to melt.)"
+        },
+        {
+          "Number": "3",
+          "Name": "Make a well in the center and pour in the chilled buttermilk."
+        },
+        {
+          "Number": "4",
+          "Name": "Stir just until the dough comes together. The dough will be very sticky. "
+        },
+        {
+          "Number": "5",
+          "Name": "Turn dough onto floured surface, dust top with flour and gently fold dough over on itself 5 or 6 times"
+        },
+        {
+          "Number": "6",
+          "Name": "Press into a 1-inch thick round."
+        },
+        {
+          "Number": "7",
+          "Name": "Cut out biscuits with a 2-inch cutter, being sure to push straight down through the dough."
+        },
+        {
+          "Number": "8",
+          "Name": "Place biscuits on baking sheet so that they just touch. "
+        },
+        {
+          "Number": "9",
+          "Name": "Reform scrap dough, working it as little as possible and continue cutting. (Biscuits from the second pass will not be quite as light as those from the first, but hey, that's life.) "
+        },
+        {
+          "Number": "10",
+          "Name": "Bake until biscuits are tall and light gold on top, 15 to 20 minutes. ."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "4",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Crepes",
+      "PrepTime": "25",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "2",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "snack,breakfast,dessert",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a blender, combine all of the ingredients and pulse for 10 seconds"
+        },
+        {
+          "Number": "2",
+          "Name": "Place the crepe batter in the refrigerator for 1 hour. This allows the bubbles to subside so the crepes will be less likely to tear during cooking. The batter will keep for up to 48 hours. "
+        },
+        {
+          "Number": "3",
+          "Name": "Heat a small non-stick pan. Add butter to coat"
+        },
+        {
+          "Number": "4",
+          "Name": "Pour 1 ounce of batter into the center of the pan and swirl to spread evenly. "
+        },
+        {
+          "Number": "5",
+          "Name": "Cook for 30 seconds and flip. "
+        },
+        {
+          "Number": "6",
+          "Name": "Cook for another 10 seconds and remove to the cutting board."
+        },
+        {
+          "Number": "7",
+          "Name": "Lay them out flat so they can cool."
+        },
+        {
+          "Number": "8",
+          "Name": "Continue until all batter is gone."
+        },
+        {
+          "Number": "9",
+          "Name": "After they have cooled you can stack them and store in sealable plastic bags in the refrigerator for several days or in the freezer for up to two months. "
+        },
+        {
+          "Number": "10",
+          "Name": " When using frozen crepes, thaw on a rack before gently peeling apart."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": "melted, plus something for coating the pan"
+
+        }
+      ]
+    },
+    {
+      "Name": "Omelet",
+      "PrepTime": "15",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "1",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "breakfast",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Crack warm eggs into bowl, add salt, and blend with fork."
+        },
+        {
+          "Number": "2",
+          "Name": "Heat a 10-inch non-stick aluminum pan over medium-high heat."
+        },
+        {
+          "Number": "3",
+          "Name": "Once pan is hot add butter and brush around surface of pan."
+        },
+        {
+          "Number": "4",
+          "Name": "Pour eggs into center of pan and stir vigorously with rubber spatula for 5 seconds."
+        },
+        {
+          "Number": "5",
+          "Name": "As soon as a semi-solid mass begins to form lift pan and move around until the excess liquid pours off into pan. "
+        },
+        {
+          "Number": "6",
+          "Name": "Using your spatula move around the edge of the egg mixture to help shape into round and loosen edge."
+        },
+        {
+          "Number": "7",
+          "Name": "Let omelet sit in pan for 10 seconds without touching. "
+        },
+        {
+          "Number": "8",
+          "Name": "\"Shake pan to loosen from pan. Lift up the far edge of the pan and snap it back toward you. Using your spatula, fold over 1/3 of the omelet."
+        },
+        {
+          "Number": "9",
+          "Name": "Slide omelet onto plate and fold over so that omelet is a tri-fold. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chives"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Fritata",
+      "PrepTime": "20",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "breakfast",
+      "CuisinesString": "italian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to broil setting. ."
+        },
+        {
+          "Number": "2",
+          "Name": "In medium size bowl, using a fork, blend together eggs, Parmesan, pepper, and salt. "
+        },
+        {
+          "Number": "3",
+          "Name": "Heat 12-inch non-stick, oven safe sauté pan over medium high heat."
+        },
+        {
+          "Number": "4",
+          "Name": "Add butter to pan and melt. "
+        },
+        {
+          "Number": "5",
+          "Name": "Add asparagus and ham to pan and sauté for 2 to 3 minutes. "
+        },
+        {
+          "Number": "6",
+          "Name": "Pour egg mixture into pan and stir with rubber spatula."
+        },
+        {
+          "Number": "7",
+          "Name": "Cook for 4 to 5 minutes or until the egg mixture has set on the bottom and begins to set up on top."
+        },
+        {
+          "Number": "8",
+          "Name": "Sprinkle with parsley."
+        },
+        {
+          "Number": "9",
+          "Name": "Place pan into oven and broil for 3 to 4 minutes, until lightly browned and fluffy. "
+        },
+        {
+          "Number": "10",
+          "Name": "Remove from pan and cut into 6 servings. Serve immediately. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parmesan"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "asparagus"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "chopped, roasted"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ham"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "chopped"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parsley"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "chopped"
+
+        }
+      ]
+    },
+    {
+      "Name": "Blueberry muffins",
+      "PrepTime": "50",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "breakfast,snack,dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190 degrees C."
+        },
+        {
+          "Number": "2",
+          "Name": "In a large bowl sift together the flour, baking soda, baking powder, and salt and set aside."
+        },
+        {
+          "Number": "3",
+          "Name": "In another large bowl, whisk together the sugar, oil, egg and yogurt."
+        },
+        {
+          "Number": "4",
+          "Name": "Add the dry ingredients reserving 1 tablespoon of the dry ingredients and toss with the blueberries."
+        },
+        {
+          "Number": "5",
+          "Name": "Stir mixture for a count of 10."
+        },
+        {
+          "Number": "6",
+          "Name": "Add 1 cup blueberries to mixture and stir 3 more times. "
+        },
+        {
+          "Number": "7",
+          "Name": "Reserve the 1/2 cup of blueberries."
+        },
+        {
+          "Number": "8",
+          "Name": "Using a #20 ice cream scoop, add the mixture to greased muffin pans. "
+        },
+        {
+          "Number": "9",
+          "Name": "Sprinkle the remaining 1/2 cup of berries on top of muffins and press down lightly."
+        },
+        {
+          "Number": "10",
+          "Name": "Place into the oven and increase the temperature to 200 degrees."
+        },
+        {
+          "Number": "11",
+          "Name": "Bake for 20 to 25 minutes, rotating pan halfway through."
+        },
+        {
+          "Number": "12",
+          "Name": "Remove from oven and turn out, upside down on tea towel to cool completely."
+        },
+        {
+          "Number": "13",
+          "Name": "Serve immediately or store in airtight container for 2 to 3 days."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "3.25",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "yogurt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "blueberries"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Oatmeal",
+      "PrepTime": "45",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "breakfast",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a large saucepot, melt the butter and add the oats."
+        },
+        {
+          "Number": "2",
+          "Name": "Stir for 2 minutes to toast."
+        },
+        {
+          "Number": "3",
+          "Name": "Add the boiling water and reduce heat to a simmer. Keep at a low simmer for 25 minutes, without stirring. "
+        },
+        {
+          "Number": "4",
+          "Name": "Combine the milk and half of the buttermilk with the oatmeal."
+        },
+        {
+          "Number": "5",
+          "Name": "Stir gently to combine and cook for an additional 10 minutes."
+        },
+        {
+          "Number": "6",
+          "Name": "Spoon into a serving bowl and top with remaining buttermilk, brown sugar, and cinnamon."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "oats"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "3",
+          "Comment": "boiling"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "buttermilk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cinnamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Breakfast sausage",
+      "PrepTime": "105",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "false",
+      "Healthy": "false",
+      "MealTypesString": "breakfast",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Combine diced pork with all other ingredients and chill for 1 hour. "
+        },
+        {
+          "Number": "2",
+          "Name": "Using the fine blade of a grinder, grind the pork."
+        },
+        {
+          "Number": "3",
+          "Name": "Form into 1-inch rounds."
+        },
+        {
+          "Number": "4",
+          "Name": "Refrigerate and use within 1 week or freeze for up to 3 months."
+        },
+        {
+          "Number": "5",
+          "Name": "For immediate use, sauté patties over medium-low heat in a non-stick pan. "
+        },
+        {
+          "Number": "6",
+          "Name": "Sauté until brown and cooked through, approximately 10 to 15 minutes."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "pork butt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fat back"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sage leaves"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "thyme leaves"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "rosemary leaves"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "nutmeg"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": "grated"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red pepper flakes"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Apple sauce",
+      "PrepTime": "20",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "sauce",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a sealable microwave-safe container, combine apples with all other ingredients."
+        },
+        {
+          "Number": "2",
+          "Name": "Close lid, leaving one corner of lid open to allow steam to escape. "
+        },
+        {
+          "Number": "3",
+          "Name": "Microwave on high for 10 minutes. "
+        },
+        {
+          "Number": "4",
+          "Name": "Using a hand blender or potato masher, blend to desired consistency."
+        },
+        {
+          "Number": "5",
+          "Name": "Serve hot immediately or chill for later use."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "apple"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "apple juice"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "unfiltered"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brandy"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cinnamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "Cheese grits",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "breakfast,snack,appetizer",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Place the milk, water, and salt into a large, heavy-bottomed pot over medium-high heat and bring to a boil."
+        },
+        {
+          "Number": "2",
+          "Name": "Once the milk mixture comes to a boil, gradually add the cornmeal while continually whisking."
+        },
+        {
+          "Number": "3",
+          "Name": "Once all of the cornmeal has been incorporated, decrease the heat to low and cover."
+        },
+        {
+          "Number": "4",
+          "Name": "Remove lid and whisk frequently, every 3 to 4 minutes, to prevent grits from sticking or forming lumps; make sure to get into corners of pot when whisking. "
+        },
+        {
+          "Number": "5",
+          "Name": "Cook for 20 to 25 minutes or until mixture is creamy."
+        },
+        {
+          "Number": "6",
+          "Name": "Remove from the heat, add the pepper and butter, and whisk to combine."
+        },
+        {
+          "Number": "7",
+          "Name": "Once the butter is melted, gradually whisk in the cheese a little at a time. Serve immediately."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornmeal"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4",
+          "Comment": "unsalted"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cheddar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5",
+          "Comment": ""
+
+        }
+      ]
+    },
+    {
+      "Name": "French toast",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "breakfast,dessert",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In medium size mixing bowl, whisk together the half-and-half, eggs, honey, and salt. You may do this the night before."
+        },
+        {
+          "Number": "2",
+          "Name": "When ready to cook, pour custard mixture into a pie pan and set aside."
+        },
+        {
+          "Number": "3",
+          "Name": "Preheat oven to 190 degrees C."
+        },
+        {
+          "Number": "4",
+          "Name": "Dip bread into mixture, allow to soak for 30 seconds on each side, and then remove to a cooling rack that is sitting in a sheet pan, and allow to sit for 1 to 2 minutes."
+        },
+        {
+          "Number": "5",
+          "Name": "Over medium-low heat, melt 1 tablespoon of butter in a 10-inch nonstick sauté pan. "
+        },
+        {
+          "Number": "6",
+          "Name": "Place 2 slices of bread at a time into the pan and cook until golden brown, approximately 2 to 3 minutes per side."
+        },
+        {
+          "Number": "7",
+          "Name": "Remove from pan and place on rack in oven for 5 minutes."
+        },
+        {
+          "Number": "8",
+          "Name": "Repeat with all 8 slices. "
+        },
+        {
+          "Number": "9",
+          "Name": "Serve immediately with maple syrup, whipped cream or fruit."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "warmed in microwave"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brioche"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "slice"
+            }
+          },
+          "Measurement": "8"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+
+        }
+      ]
+    },
+    {
+      "Name": "Savory polenta",
+      "PrepTime": "60",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "5",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "breakfast,lunch",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 170 degrees C. "
+        },
+        {
+          "Number": "2",
+          "Name": "In a large, oven-safe saucepan heat the olive oil over medium heat. "
+        },
+        {
+          "Number": "3",
+          "Name": "Add the red onion and salt and sweat until the onions begin to turn translucent, approximately 4 to 5 minutes. "
+        },
+        {
+          "Number": "4",
+          "Name": "Reduce the heat to low, add the garlic and sauté for 1 to 2 minutes, making sure the garlic does not burn. "
+        },
+        {
+          "Number": "5",
+          "Name": "Turn the heat up to high, add the chicken stock, bring to a boil."
+        },
+        {
+          "Number": "6",
+          "Name": "Gradually add the cornmeal while continually whisking. "
+        },
+        {
+          "Number": "7",
+          "Name": "Once you have added all of the cornmeal, cover the pot and place it in the oven. Cook for 35 to 40 minutes, stirring every 10 minutes to prevent lumps."
+        },
+        {
+          "Number": "8",
+          "Name": "Once the mixture is creamy, remove from the oven and add the butter, salt, and pepper."
+        },
+        {
+          "Number": "9",
+          "Name": "Once they are incorporated, gradually add the Parmesan. "
+        },
+        {
+          "Number": "10",
+          "Name": "Serve as is, or pour the polenta into 9 by 13-inch cake pan lined with parchment paper. Place in the refrigerator to cool completely"
+        },
+        {
+          "Number": "11",
+          "Name": "Once set, turn the polenta out onto a cutting board and cut into squares, rounds, or triangles."
+        },
+        {
+          "Number": "12",
+          "Name": "Brush each side with olive oil and sauté in a nonstick skillet over medium heat, or grill. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "olive oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "red onion"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "garlic"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "clove"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "finely minced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chicken stock"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornmeal"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "parmesan"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        }
+      ]
+    },
+    {
+      "Name": "Angel Food Cake",
+      "PrepTime": "60",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 170° F."
+        },
+        {
+          "Number": "2",
+          "Name": "In a food processor spin sugar until it is superfine."
+        },
+        {
+          "Number": "3",
+          "Name": "Sift half of the sugar with the salt and the cream of tartar, setting the remainder aside."
+        },
+        {
+          "Number": "4",
+          "Name": "In a large bowl, use a balloon whisk to thoroughly combine egg whites, water and orange extract."
+        },
+        {
+          "Number": "5",
+          "Name": "After 2 minutes, switch to a hand mixer."
+        },
+        {
+          "Number": "6",
+          "Name": "Slowly sift the reserved sugar, beating continuously. "
+        },
+        {
+          "Number": "7",
+          "Name": "Once you have achieved medium peaks, sift in enough flour to dust the top of the foam. "
+        },
+        {
+          "Number": "8",
+          "Name": "Using a spatula fold in gently. Continue until all of the flour is incorporated."
+        },
+        {
+          "Number": "9",
+          "Name": "Carefully spoon mixture into an ungreased, two part 10-inch tube pan."
+        },
+        {
+          "Number": "10",
+          "Name": "Bake for 35 minutes before checking for doneness with a wooden skewer. (When inserted halfway between the inner and outer wall, the skewer should come out dry)."
+        },
+        {
+          "Number": "11",
+          "Name": "Cool upside down on cooling rack for at least 1 hour before removing from pan."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.75",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cream of tartar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg white"
+            }
+          },
+          "Measurement": "12"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "warm"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "orange extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cake flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        }
+      ]
+    },
+    {
+      "Name": "Carrot cake",
+      "PrepTime": "150",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "dessert",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 170° F."
+        },
+        {
+          "Number": "2",
+          "Name": "Butter and flour a 9-inch round and 3-inch deep cake pan."
+        },
+        {
+          "Number": "3",
+          "Name": "Line the bottom with parchment paper. Set aside."
+        },
+        {
+          "Number": "4",
+          "Name": "Put the carrots into a large mixing bowl and set aside."
+        },
+        {
+          "Number": "5",
+          "Name": "Put the flour, baking powder, baking soda, spices, and salt in the bowl of a food processor and process for 5 seconds. "
+        },
+        {
+          "Number": "6",
+          "Name": "Add this mixture to the carrots and toss until they are wellcoated with the flour."
+        },
+        {
+          "Number": "7",
+          "Name": "In the bowl of the food processor combine the sugar, brown sugar, eggs, and yogurt."
+        },
+        {
+          "Number": "8",
+          "Name": "With the processor still running drizzle in the vegetable oil. "
+        },
+        {
+          "Number": "9",
+          "Name": "Pour this mixture into the carrot mixture and stir until just combined."
+        },
+        {
+          "Number": "10",
+          "Name": "Pour into the prepared cake pan and bake on the middle rack of the oven for 45 minutes."
+        },
+        {
+          "Number": "11",
+          "Name": "Reduce the heat to 160 degrees C and bake for another 20 minutes or until the cake reaches 100 degrees C in the center. "
+        },
+        {
+          "Number": "12",
+          "Name": "Remove the pan from the oven and allow cake to cool 15 minutes in the pan."
+        },
+        {
+          "Number": "13",
+          "Name": "After 15 minutes, turn the cake out onto a rack and allow cake to cool completely. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "carrot"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.35"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking soda"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "allspice"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cinnamon"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "allspice"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "nutmeg"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25",
+          "Comment": "freshly ground"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "yogurt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+        }
+      ]
+    },
+    {
+      "Name": "Funnel cake",
+      "PrepTime": "20",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "5",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "snack,dessert",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Boil water, butter, sugar, and salt together in a saucepan."
+        },
+        {
+          "Number": "2",
+          "Name": "Add flour and work it in until it is all incorporated and dough forms a ball. "
+        },
+        {
+          "Number": "3",
+          "Name": "Transfer mixture to the bowl of a standing mixer and let cool for 3 to 4 minutes. "
+        },
+        {
+          "Number": "4",
+          "Name": "With mixer lowest speed, add eggs, 1 at a time, making sure the first egg is completely incorporated before continuing. "
+        },
+        {
+          "Number": "5",
+          "Name": "Once all eggs have been added and mixture is smooth, put dough in a piping bag fitted with a number 12 tip.  "
+        },
+        {
+          "Number": "6",
+          "Name": "Heat about 1 1/2 inches of oil in a heavy pan. "
+        },
+        {
+          "Number": "7",
+          "Name": "Pipe dough into oil, making a free-form lattice pattern; cook until browned, flipping once. "
+        },
+        {
+          "Number": "8",
+          "Name": "Remove cake from oil, drain on paper towels, and top with powdered sugar. "
+        },
+        {
+          "Number": "9",
+          "Name": "Continue until all of the batter is used. "
+        },
+        {
+          "Number": "10",
+          "Name": "Pour into the prepared cake pan and bake on the middle rack of the oven for 45 minutes."
+        },
+        {
+          "Number": "11",
+          "Name": "Reduce the heat to 160 degrees C and bake for another 20 minutes or until the cake reaches 100 degrees C in the center. "
+        },
+        {
+          "Number": "12",
+          "Name": "Remove the pan from the oven and allow cake to cool 15 minutes in the pan."
+        },
+        {
+          "Number": "13",
+          "Name": "After 15 minutes, turn the cake out onto a rack and allow cake to cool completely. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": ""
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.125"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg white"
+            }
+          },
+          "Measurement": "2"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "Comment": "for frying"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "powdered sugar"
+            }
+          },
+          "Comment": "for topping"
+        }
+      ]
+    },
+    {
+      "Name": "Lemon curd",
+      "PrepTime": "30",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Add enough water to a medium saucepan to come about 1-inch up the side. "
+        },
+        {
+          "Number": "2",
+          "Name": "Bring to a simmer over medium-high heat "
+        },
+        {
+          "Number": "3",
+          "Name": "Meanwhile, combine egg yolks and sugar in a medium size metal bowl and whisk until smooth, about 1 minute."
+        },
+        {
+          "Number": "4",
+          "Name": "Measure citrus juice and if needed, add enough cold water to reach 1/3 cup. "
+        },
+        {
+          "Number": "5",
+          "Name": "Add juice and zest to egg mixture and whisk smooth. "
+        },
+        {
+          "Number": "6",
+          "Name": "Once water reaches a simmer, reduce heat to low and place bowl on top of saucepan. (Bowl should be large enough to fit on top of saucepan without touching the water.)"
+        },
+        {
+          "Number": "7",
+          "Name": "Whisk until thickened, approximately 8 minutes, or until mixture is light yellow and coats the back of a spoon. "
+        },
+        {
+          "Number": "8",
+          "Name": "Remove promptly from heat and stir in butter a piece at a time, allowing each addition to melt before adding the next. "
+        },
+        {
+          "Number": "9",
+          "Name": "Remove to a clean container and cover by laying a layer of plastic wrap directly on the surface of the curd.  "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "110"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "lemon"
+            }
+          },
+          "Measurement": "4",
+          "Comment": "zested and juiced"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg yolk"
+            }
+          },
+          "Measurement": "5"
+
+        }
+      ]
+    },
+    {
+      "Name": "Savory cheesecake",
+      "PrepTime": "390",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "10",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "snack,appetizer,lunch",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 170 degrees C."
+        },
+        {
+          "Number": "2",
+          "Name": "In a small bowl, combine the melted butter, egg white, and the bagel chips. "
+        },
+        {
+          "Number": "3",
+          "Name": "Press them into the bottom of a 10-inch spring form pan.  "
+        },
+        {
+          "Number": "4",
+          "Name": "Bake for 8 minutes to crisp up."
+        },
+        {
+          "Number": "5",
+          "Name": "Remove from oven and cool. "
+        },
+        {
+          "Number": "6",
+          "Name": "Reduce the heat to 120° C."
+        },
+        {
+          "Number": "7",
+          "Name": "In a mixing bowl fitted with a paddle attachment, blend the cream cheese, cornstarch, salt, and sour cream."
+        },
+        {
+          "Number": "8",
+          "Name": "Once combined, add the eggs."
+        },
+        {
+          "Number": "9",
+          "Name": "Fold in trout and chives"
+        },
+        {
+          "Number": "10",
+          "Name": "Pour the batter over the cooled crust. Bake for 1 hour. "
+        },
+        {
+          "Number": "11",
+          "Name": "Turn the oven off and leave the cake in the oven for an additional hour without opening the door. "
+        },
+        {
+          "Number": "12",
+          "Name": "Cool on a rack for at least 4 hours."
+        },
+        {
+          "Number": "13",
+          "Name": "Carefully unmold"
+        },
+        {
+          "Number": "14",
+          "Name": "Keep refrigerated until ready to serve."
+        },
+        {
+          "Number": "15",
+          "Name": "Set a platter on top of the skillet and carefully invert the cake. Serve"
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg white"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "bagel chips"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cream cheese"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "675"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sour cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "120"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "smoked trout"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "170"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "chives"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+
+        }
+      ]
+    },
+    {
+      "Name": "Shortcake",
+      "PrepTime": "35",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "8",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "snack,dessert",
+      "CuisinesString": "british",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 220 degrees C."
+        },
+        {
+          "Number": "2",
+          "Name": "In a large mixing bowl, combine flour, baking powder, salt and sugar"
+        },
+        {
+          "Number": "3",
+          "Name": "Cut in butter"
+        },
+        {
+          "Number": "4",
+          "Name": "Mix in milk."
+        },
+        {
+          "Number": "5",
+          "Name": "Drop by large spoonfuls onto a baking sheet. "
+        },
+        {
+          "Number": "6",
+          "Name": "Brush with melted butter and sprinkle with sugar. "
+        },
+        {
+          "Number": "7",
+          "Name": " Bake for 15 minutes or until brown."
+        },
+        {
+          "Number": "8",
+          "Name": "Cool and eat with berries, ice cream and/or whipped cream."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.75"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.75"
+
+        }
+      ]
+    },
+    {
+      "Name": "Yeast doughnuts",
+      "PrepTime": "150",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "15",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "snack,dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Place the milk in a medium saucepan and heat over medium heat just until warm enough to melt the shortening"
+        },
+        {
+          "Number": "2",
+          "Name": "Place the shortening in a bowl and pour warmed milk over. Set aside. "
+        },
+        {
+          "Number": "3",
+          "Name": "In a small bowl, sprinkle the yeast over the warm water and let dissolve for 5 minutes."
+        },
+        {
+          "Number": "4",
+          "Name": "After 5 minutes, pour the yeast mixture into the large bowl of a stand mixer and add the milk and shortening mixture, first making sure the milk and shortening mixture has cooled to lukewarm. "
+        },
+        {
+          "Number": "5",
+          "Name": "Add the eggs, sugar, salt, nutmeg, and half of the flour. "
+        },
+        {
+          "Number": "6",
+          "Name": "Using the paddle attachment, combine the ingredients on low speed until flour is incorporated and then turn the speed up to medium and beat until well combined."
+        },
+        {
+          "Number": "7",
+          "Name": "Add the remaining flour, combining on low speed at first, and then increase the speed to medium and beat well. "
+        },
+        {
+          "Number": "8",
+          "Name": "Change to the dough hook attachment of the mixer and beat on medium speed until the dough pulls away from the bowl and becomes smooth, approximately 3 to 4 minutes"
+        },
+        {
+          "Number": "9",
+          "Name": "Transfer to a well-oiled bowl, cover, and let rise for 1 hour or until doubled in size "
+        },
+        {
+          "Number": "10",
+          "Name": "On a well-floured surface, roll out dough to 3/8-inch thick.  "
+        },
+        {
+          "Number": "11",
+          "Name": "Cut out dough using a 2 1/2-inch doughnut cutter or pastry ring and using a 7/8-inch ring for the center whole."
+        },
+        {
+          "Number": "12",
+          "Name": "Set on floured baking sheet, cover lightly with a tea towel, and let rise for 30 minutes."
+        },
+        {
+          "Number": "13",
+          "Name": "Preheat the oil in a deep fryer or Dutch oven to 185 degrees C."
+        },
+        {
+          "Number": "14",
+          "Name": "Gently place the doughnuts into the oil, 3 to 4 at a time.  "
+        },
+        {
+          "Number": "15",
+          "Name": "Cook for 1 minute per side. "
+        },
+        {
+          "Number": "16",
+          "Name": "Transfer to a cooling rack placed in baking pan."
+        },
+        {
+          "Number": "17",
+          "Name": "Allow to cool for 15 to 20 minutes prior to glazing, if desired."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "instant yeast"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "package"
+            }
+          },
+          "Measurement": "2"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "water"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.3",
+          "Comment": "warm"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "2",
+          "Comment": "beaten"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "nutmeg"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "freshly ground"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "5.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "Comment": "depending on the fryer"
+        }
+      ]
+    },
+    {
+      "Name": "Chocolate coconut balls",
+      "PrepTime": "45",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "10",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "snack,dessert",
+      "CuisinesString": "italian",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Mix the coconut, nut, milk and extract together"
+        },
+        {
+          "Number": "2",
+          "Name": " Form into 3/4 balls. Make them really tight"
+        },
+        {
+          "Number": "3",
+          "Name": "Leave them out to dry on parchment paper or foil for about 3 to 4 hours or in the refrigerator for 1 hour. "
+        },
+        {
+          "Number": "4",
+          "Name": "Melt chocolate and shortening together, (probably in a double boiler) "
+        },
+        {
+          "Number": "5",
+          "Name": "Dip coconut balls in chocolate, let extra ooze off and place back on paper or foil to cool and harden. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "shredded coconut"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "225"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "macadamia nuts"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+          "Comment": "toasted, chopped"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "condensed milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "almond extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "semi-sweet chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "bar"
+            }
+          },
+          "Measurement": "2"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        }
+      ]
+    },
+    {
+      "Name": "Chocolate lava muffins",
+      "PrepTime": "45",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "12",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat oven to 190°C"
+        },
+        {
+          "Number": "2",
+          "Name": "Place a small metal bowl over a saucepan with simmering water."
+        },
+        {
+          "Number": "3",
+          "Name": "Melt the chocolate and butter in the bowl. "
+        },
+        {
+          "Number": "4",
+          "Name": "Stir in vanilla."
+        },
+        {
+          "Number": "5",
+          "Name": "In a large mixing bowl, combine sugar, flour and salt. "
+        },
+        {
+          "Number": "6",
+          "Name": "Sift these into the chocolate and mix well with electric hand mixer. "
+        },
+        {
+          "Number": "7",
+          "Name": "Add eggs one at time, fully incorporating each egg before adding the next."
+        },
+        {
+          "Number": "8",
+          "Name": "Beat at high until batter is creamy and lightens in color, approximately 4 minutes. "
+        },
+        {
+          "Number": "9",
+          "Name": "Chill mixture"
+        },
+        {
+          "Number": "10",
+          "Name": "Coat the top and each cup of the muffin tin with butter. "
+        },
+        {
+          "Number": "11",
+          "Name": "Dust with the cocoa powder and shake out excess"
+        },
+        {
+          "Number": "12",
+          "Name": "Spoon mixture into pan using a 4-ounce scoop or ladle. "
+        },
+        {
+          "Number": "13",
+          "Name": " Bake for 10 to 11 minutes. Outsides should be cake-like and centers should be gooey."
+        },
+        {
+          "Number": "14",
+          "Name": "While muffins are in oven, melt the ice cream in a small saucepan.  "
+        },
+        {
+          "Number": "15",
+          "Name": " Stir in the espresso powder. "
+        },
+        {
+          "Number": "16",
+          "Name": "Serve over warm muffins. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "semi-sweet chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "225"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "6"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cocoa powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "Comment": "to coat the tin"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "ice cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "instant coffee"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        }
+      ]
+    },
+    {
+      "Name": "Chocolate mousse",
+      "PrepTime": "100",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "6",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Chill 1 1/2 cups whipping cream in refrigerator"
+        },
+        {
+          "Number": "2",
+          "Name": "Chill metal mixing bowl and mixer beaters in freezer. "
+        },
+        {
+          "Number": "3",
+          "Name": "In top of a double boiler, combine chocolate chips, coffee, rum and butter. "
+        },
+        {
+          "Number": "4",
+          "Name": "Melt over barely simmering water, stirring constantly. Remove from heat while a couple of chunks are still visible. "
+        },
+        {
+          "Number": "5",
+          "Name": "Cool, stirring occasionally to just above body temperature. "
+        },
+        {
+          "Number": "6",
+          "Name": "Pour remaining 1/4 cup whipping cream into a metal measuring cup and sprinkle in the gelatin "
+        },
+        {
+          "Number": "7",
+          "Name": "Allow gelatin to bloom for 10 minutes."
+        },
+        {
+          "Number": "8",
+          "Name": "Then carefully heat by swirling the measuring cup over a low gas flame or candle. Do not boil or gelatin will be damaged. "
+        },
+        {
+          "Number": "9",
+          "Name": "Stir mixture into the cooled chocolate and set aside."
+        },
+        {
+          "Number": "10",
+          "Name": "In the chilled mixing bowl, beat cream to medium peaks. "
+        },
+        {
+          "Number": "11",
+          "Name": "Stir 1/4 of the whipped cream into the chocolate mixture to lighten it."
+        },
+        {
+          "Number": "12",
+          "Name": "Fold in the remaining whipped cream in two doses."
+        },
+        {
+          "Number": "13",
+          "Name": "There may be streaks of whipped cream in the chocolate and that is fine. Do not over work the mousse. "
+        },
+        {
+          "Number": "14",
+          "Name": "Spoon into bowls or martini glasses and chill for at least 1 hour. "
+        },
+        {
+          "Number": "15",
+          "Name": "Garnish with fruit and serve.(If mousses are to be refrigerated overnight, chill for one hour and then cover each with plastic wrap) "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "whipping cream"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "semi-sweet chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "450"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "espresso"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "rum"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "gelatin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        }
+      ]
+    },
+    {
+      "Name": "Cocoa brownies",
+      "PrepTime": "75",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "16",
+      "NoDairy": "false",
+      "NoGluten": "false",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Preheat the oven to 150° C"
+        },
+        {
+          "Number": "2",
+          "Name": "Butter and flour an 8-inch square pan"
+        },
+        {
+          "Number": "3",
+          "Name": "In a mixer fitted with a whisk attachment, beat the eggs at medium speed until fluffy and light yellow."
+        },
+        {
+          "Number": "4",
+          "Name": "Add both sugars."
+        },
+        {
+          "Number": "5",
+          "Name": "Add remaining ingredients, and mix to combine. "
+        },
+        {
+          "Number": "6",
+          "Name": "Pour the batter into a greased and floured 8-inch square pan and bake for 45 minutes. Check for doneness with the tried-and-true toothpick method: a toothpick inserted into the center of the pan should come out clean."
+        },
+        {
+          "Number": "7",
+          "Name": "When it's done, remove to a rack to cool. Resist the temptation to cut into it until it's mostly cool"
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "egg"
+            }
+          },
+
+          "Measurement": "4"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "brown sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "16"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cocoa powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "2"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+
+        }
+      ]
+    },
+
+    {
+      "Name": "Chocolate fudge",
+      "PrepTime": "40",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "16",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "dessert",
+      "CuisinesString": "american",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Grease an 8 by 8-inch pan with butter. "
+        },
+        {
+          "Number": "2",
+          "Name": "In a heavy-bottomed saucepan, combine the sugar, chocolate, 1 1/2 tablespoons of the butter, half-and-half, and corn syrup."
+        },
+        {
+          "Number": "3",
+          "Name": "Over medium heat, stir with a wooden spoon until sugar is dissolved and chocolate is melted. "
+        },
+        {
+          "Number": "4",
+          "Name": "Increase heat and bring to a boil. "
+        },
+        {
+          "Number": "5",
+          "Name": "Reduce heat to medium-low, cover, and boil for 3 minutes."
+        },
+        {
+          "Number": "6",
+          "Name": "Remove the cover and attach a candy thermometer to the pot. Cook until the thermometer reads 120 degrees C. "
+        },
+        {
+          "Number": "7",
+          "Name": "Remove from the heat and add the remaining butter. Do not stir. "
+        },
+        {
+          "Number": "8",
+          "Name": "Let the mixture cool"
+        },
+        {
+          "Number": "9",
+          "Name": "Add vanilla and nuts, if desired, and mix until well-blended and the shiny texture becomes matte."
+        },
+        {
+          "Number": "10",
+          "Name": "Pour into the prepared pan. Let sit in cool dry area until firm"
+        },
+        {
+          "Number": "11",
+          "Name": "Cut into 1-inch pieces and store in an airtight container for up to a week."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sugar"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2.75"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "unsweetened chocolate"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "g"
+            }
+          },
+          "Measurement": "120"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "butter"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "3"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "corn syrup"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vanilla extract"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "hazelnuts"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1",
+            "Comment": "chopped, roasted nuts"
+        }
+      ]
+    }
+  
+  ]
+}

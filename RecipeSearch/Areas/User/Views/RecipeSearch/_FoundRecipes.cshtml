@@ -1,0 +1,48 @@
+﻿@model RecipeSearch.Models.ViewModels.FoundRecipesVM
+
+
+<div class="row py-1 d-flex justify-content-center">
+    <form method="get">
+        <button class="btn btn bg-primary" asp-area="User" asp-controller="RecipeSearch" asp-action="Clear">
+            Clear
+        </button>
+    </form>
+    
+</div>
+<div class="row pb-3 backgroundWhite">
+
+    @foreach (var item in Model.FoundRecipes)
+    {
+        <partial name="_FoundRecipeItem" model="item" />
+    }
+</div>
+<div class="row py-1 d-flex justify-content-center">
+    @if (Model.FoundRecipes != null && Model.FoundRecipes.Count() != 0)
+    {
+        var prevDisabled = !Model.FoundRecipes.HasPreviousPage ? "disabled" : "";
+        <button class="btn btn bg-primary" @prevDisabled onclick="LoadData(@(Model.FoundRecipes.PageIndex - 1))">
+            Previous
+        </button>
+    }
+    &nbsp;
+    @if (Model.FoundRecipes != null && Model.FoundRecipes.Count() != 0)
+    {
+        var nextDisabled = !Model.FoundRecipes.HasNextPage ? "disabled" : "";
+        <button class="btn btn bg-primary" @nextDisabled onclick="LoadData(@(Model.FoundRecipes.PageIndex + 1))">
+            Next
+        </button>
+    }
+</div>
+
+@if (Model.Leftovers != null && Model.Leftovers.Count() != 0)
+{
+    <p class="row d-flex justify-content-center">
+        <h5><em>You can also check out... </em></h5>
+    </p>
+}
+<div class="row pb-3 backgroundWhite">
+    @foreach (var item in Model.Leftovers)
+    {
+        <partial name="_FoundRecipeItem" model="item" />
+    }
+</div>

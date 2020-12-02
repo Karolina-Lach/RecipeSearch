@@ -1,0 +1,6 @@
+﻿@model RecipeSearch.Models.ViewModels.RecipeUpsertVM
+
+<label asp-for="Ingredient.Product"></label>
+@Html.DropDownListFor(m => m.Ingredient.ProductId, Model.ProductList, "- Select product",
+             new { @class = "form-control isValidProduct", @id = "productInput" })
+<span asp-validation-for="Ingredient.Product" class="text-danger" id="productInputValidation"></span>

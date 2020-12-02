@@ -1,0 +1,100 @@
+﻿@model RecipeSearch.Models.ViewModels.FoundRecipeDetailsVM
+@{
+    ViewData["Title"] = Model.Recipe.Name;
+}
+
+<div class="container backgroundWhite">
+    <partial name="_RecipeHeader" model="@Model.Recipe" />
+    @if (Model.MissingProperties != null && Model.MissingIngredients != null)
+    {
+        <div class="card-body">
+            <div class="container rounded p-2">
+                <div class="row">
+                    <table>
+                        @if (Model.MissingIngredients.Count() != 0)
+                        {
+                            <tr>
+                                <td class="missing">
+                                    Missing ingredients: &nbsp;
+                                </td>
+                                <td>
+                                    @foreach (var product in Model.MissingIngredients)
+                                    {
+                                        <em>@product &nbsp;</em>
+                                    }
+                                </td>
+                                <td>
+                                    @if (User.IsInRole(RecipeSearch.Utility.SD.Role_User) || User.IsInRole(RecipeSearch.Utility.SD.Role_Admin))
+                                    {
+                                        <button class="btn-sm btn btn-light" id="addToList">Add to grocery list</button>
+                                    }
+                                    else
+                                    {
+                                        <form method="post">
+                                            <button asp-action="Details" type="submit" class="btn-sm btn btn-light">Add to grocery list</button>
+                                        </form>
+                                    }
+
+                                </td>
+                            </tr>
+                        }
+                        @if (Model.MissingProperties.Count() != 0)
+                        {
+                            <tr>
+                                <td class="missing">
+                                    Missing properties: &nbsp;
+                                </td>
+                                <td>
+                                    @foreach (var prop in Model.MissingProperties)
+                                    {
+
+                                        <em>@prop &nbsp;</em>
+
+
+                                    }
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    }
+    <partial name="_RecipeDetails" model="@Model.Recipe" />
+</div>
+
+@section Scripts{
+    <script src="~/js/likeButton.js"></script>
+    <script>
+    $(document).ready(function () {
+        $("#addToList").on('click', function () {
+            //console.log('click');
+            var products = @Html.Raw(Json.Serialize(Model.MissingIngredients));
+            var id = @Html.Raw(Model.Recipe.Id);
+            //console.log(products);
+            $.ajax({
+                type: "post",
+                url: "@Url.Action("AddToGroceryList")",
+                data: { recipeId: id, products: products },
+                success: function (data) {
+                    //console.log('success');
+                    if (data.success) {
+                        toastr.success(data.message);
+                    }
+                    else {
+                        toastr.error(data.message);
+                    }
+                },
+                statusCode: {
+                    401: function () {
+                        console.log('401');
+                        window.location.href = '/Identity/Account/Login';
+                    }
+                }
+            });
+        });
+    });
+    </script>
+}

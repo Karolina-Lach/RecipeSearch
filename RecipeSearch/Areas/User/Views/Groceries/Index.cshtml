@@ -1,0 +1,150 @@
+﻿@model RecipeSearch.Models.ViewModels.GroceriesListVM
+@{
+    ViewData["Title"] = "Your grocery list";
+}
+
+<div class="container" id="statusMessage">
+
+</div>
+<br />
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+</div>
+<hr class="solid">
+
+<div class="card col-6 offset-3">
+    <div class="card-body" id="list">
+        <partial name="_GroceryList" model="Model.Groceries" />
+    </div>
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col" style="text-align:center">
+                <button class="btn btn-info" id="clearList" onclick="ClearList()">Clear</button>
+            </div>
+            <div class="col" style="text-align:center">
+                <button class="btn btn-info" id="sendEmail" onclick="SendEmail()">Send to email </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function DeleteGroceryItem() {
+            var hostString = window.location.protocol + "//" + window.location.host + "/";
+            $(".deleteGroceryItem").on('click', function (e) {
+                e.preventDefault();
+                var name = $(this).find("input[type=hidden]").val();
+                $.ajax({
+                    type: "delete",
+                    url: hostString + "User/Groceries/DeleteGroceryListItem/",
+                    data: { productName: name },
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.success == true) {
+                            $.get(hostString + "User/Groceries/GetGroceryList", function (data) {
+                                $("#list").html(data);
+                                DeleteGroceryItem();
+                                console.log('success')
+                            });
+                        }
+                        else {
+                            if (data.message != "The list is clear!") {
+                                ErrorMessage(data.message);
+                                console.log('error')
+                            }
+                        }
+                    },
+                    error: function (req, status, error) {
+                        ErrorMessage("Something went wrong! Please try again later.");
+                    }
+                })
+
+            })
+        }
+        function SuccessMessage(message) {
+            swal({
+                text: message,
+                icon: "success",
+                buttons: true
+            }).then((willDelete) => {
+                if (willDelete) {
+                    ClearList();
+                    //$.ajax({
+                    //    type: "post",
+                    //    url: "Groceries/ClearList",
+                    //    dataType: "html",
+                    //    success: function (data) {
+                    //        $("#list").html(data);
+                    //        //DeleteGroceryItem();
+                    //    },
+                    //    error: function () {
+                    //        console.log("error");
+                    //    }
+                    //})
+                }
+            });
+        }
+        function ErrorMessage(message) {
+            swal({
+                text: message,
+                icon: "error"
+            });
+        }
+        function ClearList() {
+            var hostString = window.location.protocol + "//" + window.location.host + "/";
+            $.ajax({
+                type: "delete",
+                url: hostString + "User/Groceries/ClearList",
+                cache: false,
+                dataType: "json",
+                success: function (data) {
+                    if (data.success == true) {
+                        $.get(hostString + "User/Groceries/GetGroceryList", function (data) {
+                            $("#list").html(data);
+                        });
+                    }
+                    else {
+                        if (data.message != "The list is clear!") {
+                            ErrorMessage(data.message);
+                        }
+                    }
+                },
+                error: function () {
+                    ErrorMessage("Something went wrong! Please try again later.");
+                }
+            })
+            //})
+        }
+        function SendEmail() {
+            var hostString = window.location.protocol + "//" + window.location.host + "/";
+            $.ajax({
+                type: "get",
+                url: hostString + "User/Groceries/SendListToEmail",
+                cache: false,
+                dataType: "json",
+                success: function (data) {
+                    if (data.success == true) {
+                        SuccessMessage(data.message)
+                    }
+                    else {
+                        ErrorMessage(data.message)
+                    }
+                },
+                error: function () {
+                    ErrorMessage("Opps, something went wrong! Please try again later.");
+                }
+            })
+            //})
+        }
+
+        $(document).ready(function () {
+            DeleteGroceryItem();
+        });
+    </script>
+
+}

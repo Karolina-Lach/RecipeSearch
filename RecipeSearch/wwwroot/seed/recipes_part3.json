@@ -1,0 +1,474 @@
+{
+  "Recipe": [
+    {
+      "Name": "Catfish au lait",
+      "PrepTime": "25",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "false",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "french",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Combine the milk, Old Bay, pepper, salt, and onion in an electric skillet, cover, and bring to a simmer."
+        },
+        {
+          "Number": "2",
+          "Name": "Add the catfish to the liquid, spooning some of the liquid over the fillets."
+        },
+        {
+          "Number": "3",
+          "Name": "Reduce the heat to low, cover the skillet, and poach for 6 to 9 minutes. "
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "milk"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fish seasoning"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "black pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "onion"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fish fillet"
+            }
+          },
+          "Measurement": "4"
+        }
+      ]
+    },
+    {
+      "Name": "Chimney tuna loin",
+      "PrepTime": "15",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "true",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "japanese",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "In a non-reactive bowl combine soy, honey, and wasabi powder. Reserve 1/4 cup for dipping sauce. "
+        },
+        {
+          "Number": "2",
+          "Name": "Roll each piece of tuna in this mixture to coat evenly. "
+        },
+        {
+          "Number": "3",
+          "Name": "Marinate from 1 hour to overnight."
+        },
+        {
+          "Number": "4",
+          "Name": "Remove the tuna from the marinade and discard the marinade. "
+        },
+        {
+          "Number": "5",
+          "Name": "On a plate, lay the sesame seeds. Roll the tuna in the seeds to evenly coat."
+        },
+        {
+          "Number": "6",
+          "Name": "Fire up the chimney and top with a well-oiled grate. "
+        },
+        {
+          "Number": "7",
+          "Name": "Sear for 15 to 30 seconds per side or to desired temperature."
+        },
+        {
+          "Number": "8",
+          "Name": "Remove to rack and rest for 3 minutes. "
+        },
+        {
+          "Number": "9",
+          "Name": "Cover with foil or plastic wrap to achieve carry over cooking. "
+        },
+        {
+          "Number": "10",
+          "Name": "Slice thinly and serve with the dipping sauce."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "soy sauce"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "honey"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "wasabi powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "tuna loin"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "sesame seeds"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "peanut oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Chips and fish",
+      "PrepTime": "30",
+      "Source": "The Good Eats Cookbook",
+      "Servings": "4",
+      "NoDairy": "true",
+      "NoGluten": "true",
+      "Vegan": "false",
+      "Vegetarian": "true",
+      "Healthy": "false",
+      "MealTypesString": "lunch,dinner",
+      "CuisinesString": "british",
+      "Steps": [
+        {
+          "Number": "1",
+          "Name": "Heat oven to 100C. Heat the safflower oil in a 5-quart Dutch oven over high heat"
+        },
+        {
+          "Number": "2",
+          "Name": "Using a V-slicer with a wide blade, slice the potatoes with the skin on. Place in a large bowl with cold water. "
+        },
+        {
+          "Number": "3",
+          "Name": "In a bowl, whisk together the flour, baking powder, salt, cayenne pepper, and fish seasoning."
+        },
+        {
+          "Number": "4",
+          "Name": "Whisk in the beer until the batter is completely smooth and free of any lumps. Refrigerate for 15 minutes. Note: The batter can be made up to 1 hour ahead of time. "
+        },
+        {
+          "Number": "5",
+          "Name": "Drain potatoes thoroughly, removing any excess water. When oil reaches 160°, submerge the potatoes in the oil.  "
+        },
+        {
+          "Number": "6",
+          "Name": "Working in small batches, fry for 2 to 3 minutes until they are pale and floppy. "
+        },
+        {
+          "Number": "7",
+          "Name": " Remove from oil, drain, and cool to room temperature.  Increase the temperature of the oil to 190°."
+        },
+        {
+          "Number": "8",
+          "Name": "Re-immerse fries and cook until crisp and golden brown, about 2 to 3 minutes. Remove and drain on roasting rack."
+        },
+        {
+          "Number": "9",
+          "Name": "Season with kosher salt while hot and hold in the oven. Allow oil to return to 180°. "
+        },
+        {
+          "Number": "10",
+          "Name": "Lightly dredge fish strips in cornstarch."
+        },
+        {
+          "Number": "11",
+          "Name": "Working in small batches, dip the fish into batter and immerse into hot oil."
+        },
+        {
+          "Number": "12",
+          "Name": "When the batter is set, turn the pieces of fish over and cook until golden brown, about 2 minutes. "
+        },
+        {
+          "Number": "13",
+          "Name": "Drain the fish on the roasting rack."
+        }
+      ],
+      "Ingredients": [
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "vegetable oil"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "l"
+            }
+          },
+          "Measurement": "0.5"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "potato"
+            }
+          }
+          "Measurement": "4"
+
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "all-purpose flour"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "cup"
+            }
+          },
+          "Measurement": "2"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "baking powder"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "kosher salt"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cayenne pepper"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "0.25"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fish seasoning"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "teaspoon"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "beer"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "bottle"
+            }
+          },
+          "Measurement": "1"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "fish fillet"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "kg"
+            }
+          },
+          "Measurement": "0.7"
+        },
+        {
+          "ProductId": {
+            "Lookup": {
+              "Repository": "Product",
+              "Name": "cornstarch"
+            }
+          },
+          "UnitId": {
+            "Lookup": {
+              "Repository": "Unit",
+              "Name": "tablespoon"
+            }
+          },
+          "Measurement": "2"
+        }
+      ]
+    }
+  ]
+}

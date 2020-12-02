@@ -1,0 +1,17 @@
+﻿@model RecipeSearch.Utility.PaginatedList<RecipeSearch.Models.ViewModels.RecipeHeaderVM>
+
+<partial name="_RecipesList" model="Model.ToList()" />
+<div class="row py-1 d-flex justify-content-center">
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+
+    <button class="btn btn bg-primary" @prevDisabled onclick="LoadData(@(Model.PageIndex - 1))">
+        Previous
+    </button>
+    &nbsp;
+    <button class="btn btn bg-primary" @nextDisabled onclick="LoadData(@(Model.PageIndex + 1))">
+        Next
+    </button>
+</div>

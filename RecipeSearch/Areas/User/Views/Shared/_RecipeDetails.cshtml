@@ -1,0 +1,70 @@
+﻿@model Recipe 
+
+<div class="card-body">
+    <div class="container rounded p-2">
+        <div class="row">
+            <div class="col-8 col-lg-8">
+                <h6>Ingredients:</h6>
+                <table>
+                    @foreach (var ingredient in Model.Ingredients)
+                    {
+                        <tr>
+                            <td>
+
+                                @ingredient.Measurement &nbsp;
+                                @if (ingredient.Unit != null)
+                                {
+                                    @if (ingredient.Measurement > 1)
+                                    {
+                                        @ingredient.Unit.PluralName
+                                    }
+                                    else
+                                    {
+                                        @ingredient.Unit.Name
+                                    }
+
+                                }
+
+                            </td>
+                            <td>
+                                @if (ingredient.Unit != null)
+                                {
+                                    @ingredient.Product.Name
+                                }
+                                else
+                                {
+                                    if(ingredient.Measurement>1 && ingredient.Product.PluralName != null)
+                                    {
+                                        @ingredient.Product.PluralName
+                                    }
+                                    else
+                                    {
+                                        @ingredient.Product.Name
+                                    }
+                                }
+                            </td>
+                        </tr>
+                    }
+                </table>
+                <br />
+                <h6>Steps:</h6>
+                <table>
+                    @foreach (var steps in Model.Steps)
+                    {
+                        <tr>
+                            <td>
+                                @steps.Number. &nbsp;
+                            </td>
+                            <td>
+                                @steps.Name
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="col-12 col-lg-3 offset-lg-1 text-center">
+                <img class="img-fluid img-thumbnail" src="@Model.ImageUrl" />
+            </div>
+        </div>
+    </div>
+</div>

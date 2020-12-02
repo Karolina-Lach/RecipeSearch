@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ListOfFavourites>
+
+@foreach (var list in Model)
+{
+    <div class="favouriteList droppable" value="@list.Id">
+        <div class="row">
+            <div class="col" style="width:90%; text-align:center">
+                @list.Name
+            </div>
+            @if (list.Name != "All")
+            {
+                <button class="btn btn-light deleteList" onclick="DeleteList(@list.Id)" style="background-color:transparent; border-color:transparent; padding-left:0px; padding-right:1em; padding-bottom:0px; padding-top:0px">
+                    <div class="col">
+                        <i class="fas fa-trash-alt"></i>
+                    </div>
+                </button>
+            }
+
+
+        </div>
+    </div>
+}

@@ -1,0 +1,53 @@
+﻿@model Recipe
+
+<div class="card">
+    <div class="card-header bg-light text-light ml-0 row container">
+        <div class="col-12 col-md-6">
+            <h1 class="text-primary">@Model.Name</h1>
+            <p class="text-info"><small>Source: @Model.Source</small> </p>
+            <br />
+            <p class="text-secondary">@Model.Summary</p>
+        </div>
+        <div class="col-12 col-md-6 text-md-right pt-4">
+            <div>
+                @foreach (var cuisine in Model.Cuisines)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@cuisine.ToString()</span>
+                }
+            </div>
+            <br />
+            <div>
+                @foreach (var meal in Model.MealTypes)
+                {
+                    <span class="badge badge-secondary pt-2" style="height:30px;">@meal.ToString()</span>
+                }
+
+            </div>
+            <br />
+            <div>
+                @if (Model.NoDairy)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@Html.DisplayNameFor(m => m.NoDairy)</span>
+                }
+                @if (Model.NoGluten)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@Html.DisplayNameFor(m => m.NoGluten)</span>
+                }
+                @if (Model.Vegan)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@Html.DisplayNameFor(m => m.Vegan)</span>
+                }
+                @if (Model.Vegetarian)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@Html.DisplayNameFor(m => m.Vegetarian)</span>
+                }
+                @if (Model.Healthy)
+                {
+                    <span class="badge badge-primary pt-2" style="height:30px;">@Html.DisplayNameFor(m => m.Healthy)</span>
+                }
+            </div>
+            <br/>
+            <partial name="_LikeButton" model="@new RecipeSearch.Models.ViewModels.LikeButtonVM(Model.Id, ViewBag.IsLiked)" />
+        </div>
+    </div>
+</div>

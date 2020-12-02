@@ -1,0 +1,144 @@
+{
+  "Unit": [
+    {
+      "Name": "cup",
+      "PluralName": "cups"
+    },
+    {
+      "Name": "teaspoon",
+      "PluralName": "teaspoons"
+    },
+    {
+      "Name": "ounce",
+      "PluralName": "ounces"
+    },
+    {
+      "Name": "tablespoon",
+      "PluralName": "tablespoons"
+    },
+    {
+      "Name": "bar",
+      "PluralName": "bars"
+    },
+    {
+      "Name": "slice",
+      "PluralName": "slices"
+    },
+    {
+      "Name": "ball",
+      "PluralName": "balls"
+    },
+    {
+      "Name": "jar",
+      "PluralName": "jars"
+    },
+    {
+      "Name": "bag",
+      "PluralName": "bags"
+    },
+    {
+      "Name": "pinch",
+      "PluralName": "pinches"
+    },
+    {
+      "Name": "pack",
+      "PluralName": "packs"
+    },
+    {
+      "Name": "kg",
+      "PluralName": "dkg"
+    },
+    {
+      "Name": "dkg",
+      "PluralName": "dkg"
+    },
+    {
+      "Name": "g",
+      "PluralName": "g"
+    },
+    {
+      "Name": "l",
+      "PluralName": "l"
+    },
+    {
+      "Name": "ml",
+      "PluralName": "ml"
+    },
+    {
+      "Name": "leaf",
+      "PluralName": "leaves"
+    },
+    {
+      "Name": "bottle",
+      "PluralName": "bottles"
+    },
+    {
+      "Name": "can",
+      "PluralName": "cans"
+    },
+    {
+      "Name": "slice",
+      "PluralName": "slices"
+    },
+    {
+      "Name": "bunch",
+      "PluralName": "bunches"
+    },
+    {
+      "Name": "slab",
+      "PluralName": "slabs"
+    },
+    {
+      "Name": "head",
+      "PluralName": "heads"
+    },
+    {
+      "Name": "bulb",
+      "PluralName": "bulbs"
+    },
+    {
+      "Name": "clove",
+      "PluralName": "cloves"
+    },
+    {
+      "Name": "cob",
+      "PluralName": "cobs"
+    },
+    {
+      "Name": "piece",
+      "PluralName": "pieces"
+    },
+    {
+      "Name": "half",
+      "PluralName": "halves"
+    },
+    {
+      "Name": "quarter",
+      "PluralName": "quarters"
+    },
+    {
+      "Name": "glass",
+      "PluralName": "glasses"
+    },
+    {
+      "Name": "loaf",
+      "PluralName": "loaves"
+    },
+    {
+      "Name": "spear",
+      "PluralName": "spears"
+    },
+    {
+      "Name": "stick",
+      "PluralName": "sticks"
+    },
+    {
+      "Name": "stalk",
+      "PluralName": "stalks"
+    },
+    {
+      "Name": "drop",
+      "PluralName": "drops"
+    }
+  ]
+}

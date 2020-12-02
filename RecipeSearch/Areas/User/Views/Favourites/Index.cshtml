@@ -1,0 +1,63 @@
+﻿@model RecipeSearch.Models.ViewModels.FavouritesVM
+@inject IJsonHelper Json;
+
+@{
+    ViewData["Title"] = "My favourites";
+}
+<div class="container" id="statusMessage">
+
+</div>
+<br />
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+</div>
+<hr class="solid">
+<div class="container">
+    <div class="row">
+        <div class="col-3 offset-1">
+            <form id="selectList" method="post">
+                <div id="dropdown" onchange="DropdownChange()">
+                    <partial name="_FavouriteListDropdown" model="Model" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-9">
+            <div class="container" id="recipesOnList">
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="container" id="listOfFavouritesLists">
+                <partial name="_ListOfFavouritesLists" model="Model.AvailableLists" />
+            </div>
+            <div class="container">
+                <div style="text-align: center">
+                    <div class="row">
+                        <div class="col-8">
+                            <input class="form-control" type="text" placeholder="Name" id="listName" />
+                            <span id="nameInputValidation" class="text-danger"></span>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-light btn-sm" id="addNewList" onclick="AddList()" style="background-color:transparent; border-color:transparent">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+@section Scripts{
+
+    <script src="~/js/favourites.js"></script>
+}

@@ -1,0 +1,41 @@
+﻿@model RecipeSearch.Utility.PaginatedList<RecipeSearch.Models.ViewModels.RecipeHeaderVM>
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<br />
+    <br />
+    <hr class="solid">
+
+    <div id="data">
+        <partial name="_RecipesList" model="Model.ToList()" />
+    </div>
+    <div class="row py-1 d-flex justify-content-center">
+        @{
+            var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        }
+
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex - 1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-primary @prevDisabled">
+            Previous
+        </a>
+        &nbsp;
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex + 1)"
+           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+           class="btn btn-primary @nextDisabled">
+            Next
+        </a>
+
+    </div>
+
+
+@section Scripts {
+    <script src="~/js/likeButton.js"></script>
+}
+
+

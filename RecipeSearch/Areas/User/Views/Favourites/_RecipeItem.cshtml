@@ -1,0 +1,34 @@
+﻿@model RecipeSearch.Models.ViewModels.RecipeHeaderVM
+
+<div style="margin:5px">
+    <div class="draggable" value ="@Model.RecipeId">
+        @*<div class="col-lg-3 col-md-6">
+            <div class="row p-2">*@
+                <div style="border:1px solid #008cba; border-radius: 5px; float:left; padding:1em">
+                    <div class="card" style="border:0px; background-color:transparent">
+
+                        <div class="thumbnail text-center">
+                            <img class="rounded mx-auto d-block" src="@Model.ImageUrl" />
+                        </div>
+                        <div class="pl-1" style="background-color:transparent">
+                            <p class="card-title h5 text-center pt-1 pb-0">@Model.Name</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-9" style="margin-right:0px; padding-right:2px;">
+                                <a asp-controller="Home" asp-action="Details" class="btn btn-primary form-control" asp-route-id="@Model.RecipeId">More...</a>
+                            </div>
+                            <div class="col-1" style="text-align:center; margin:0px; padding:0px">
+                                <button class="btn btn-light likeButton deleteRecipeFromFav" onclick="DeleteRecipeFromList(@Model.RecipeId)">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        @*</div>
+    </div>*@

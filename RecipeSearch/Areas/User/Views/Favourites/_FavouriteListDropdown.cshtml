@@ -1,0 +1,4 @@
+﻿@model RecipeSearch.Models.ViewModels.FavouritesVM
+
+@Html.DropDownListFor(m => m.SelectedList, Model.FavouriteLists,
+                                      "Select a list", new { @class = "form-control", @id = "listDropdown"})

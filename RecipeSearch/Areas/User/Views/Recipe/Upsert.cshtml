@@ -1,0 +1,376 @@
+﻿@model RecipeSearch.Models.ViewModels.RecipeUpsertVM
+@using RecipeSearch.Utility
+@{
+    ViewData["Title"] = "Create Recipe";
+}
+
+@if (Model.Recipe.Id != 0)
+{
+    ViewData["Title"] = "Edit recipe";
+    <input type="hidden" asp-for="Recipe.Id" />
+}
+<div class="container" id="statusMessage">
+
+</div>
+<br />
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+</div>
+<hr class="solid">
+
+
+@if (Model.Recipe.Id != 0)
+{
+    <input type="hidden" asp-for="Recipe.Id" />
+}
+
+
+<form method="post" enctype="multipart/form-data" id="recipeHeader">
+    <div class="row p-3">
+        <div class="col-8 pt-4">
+            <div class="form-group row">
+                <input type="hidden" asp-for="Recipe.Id" id="recipeId" class="form-control" />
+                <div class="col-11 offset-3">
+                    <label style="font-size:15px" asp-for="Recipe.Name"></label>
+                    <input asp-for="Recipe.Name" class="form-control" />
+                    <span asp-validation-for="Recipe.Name" class="text-danger"></span>
+                </div>
+                <div class="col-11 offset-3">
+                    <label style="font-size:15px" asp-for="Recipe.Summary"></label>
+                    <textarea asp-for="Recipe.Summary" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Recipe.Summary" class="text-danger"></span>
+                </div>
+                <div class="col-11 offset-3">
+                    <div class="row">
+                        <div class="col">
+                            <label style="font-size:15px" asp-for="Recipe.PrepTime"></label>
+                            <input asp-for="Recipe.PrepTime" class="form-control" />
+                            <span asp-validation-for="Recipe.PrepTime" class="text-danger"></span>
+                        </div>
+                        <div class="col">
+                            <label style="font-size:15px" asp-for="Recipe.Servings"></label>
+                            <input asp-for="Recipe.Servings" class="form-control" />
+                            <span asp-validation-for="Recipe.Servings" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 offset-3">
+                    <div class="row">
+                        <div class="col">
+                            <label style="font-size:15px" asp-for="Recipe.Source"></label>
+                            <input readonly asp-for="Recipe.Source" class="form-control" />
+                            <span asp-validation-for="Recipe.Source" class="text-danger"></span>
+                        </div>
+                        <div class="col">
+                            <label style="font-size:15px" asp-for="Recipe.ImageUrl"></label>
+                            @*<input type="file" name="files" id="uploadBox" multiple class="form-control" />*@
+                            <input type="file" class="form-control-file" name="files" id="uploadBox" aria-describedby="fileHelp">
+                            <input type="hidden" asp-for="Recipe.ImageUrl" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-11 offset-3">
+                    <div class="row">
+                        <label style="font-size:15px">Properties</label>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="dairy" asp-for="Recipe.NoDairy">
+                                <label class="custom-control-label" asp-for="Recipe.NoDairy" for="dairy"></label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="gluten" asp-for="Recipe.NoGluten">
+                                <label class="custom-control-label" asp-for="Recipe.NoGluten" for="gluten"></label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="vegan" asp-for="Recipe.Vegan">
+                                <label class="custom-control-label" for="vegan" asp-for="Recipe.Vegan"></label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="vege" asp-for="Recipe.Vegetarian">
+                                <label class="custom-control-label" asp-for="Recipe.Vegetarian" for="vege"></label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="healthy" asp-for="Recipe.Healthy">
+                                <label class="custom-control-label" asp-for="Recipe.Healthy" for="healthy"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-11 offset-3">
+                    <div class="row offset-5">
+                        <label asp-for="Recipe.CuisinesString"></label>
+                    </div>
+                    <div class="row offset-2">
+
+                        <table>
+                            <tr>
+                                @{
+                                    int cnt = 0;
+                                    List<Cuisine> exisitingCuisines = Model.Recipe.Cuisines.ToList();
+                                    foreach (Cuisine cuisine in Enum.GetValues(typeof(Cuisine)))
+                                    {
+                                        if (cnt++ % 4 == 0)
+                                        {
+                                        @:</tr><tr>
+                                        }
+                                        @:<td style="padding-right:15px">
+                                            @if (exisitingCuisines.Contains(cuisine))
+                                            {
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox"
+                                                           name="selectedCuisines"
+                                                           value="@cuisine"
+                                                           checked=""
+                                                           class="custom-control-input"
+                                                           id="cuisine @cnt" />
+                                                    <label class="custom-control-label" for="cuisine @cnt">@cuisine.ToString();</label>
+
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox"
+                                                           name="selectedCuisines"
+                                                           value="@cuisine"
+                                                           class="custom-control-input"
+                                                           id="cuisine @cnt">
+                                                    <label class="custom-control-label" for="cuisine @cnt">@cuisine.ToString()</label>
+                                                </div>
+                                            }
+
+                                        @:</td>
+                                    }
+                                @:</tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-11 offset-3" id="mealsSet">
+                    <div class="row offset-5">
+                        <label asp-for="Recipe.MealTypesString"></label>
+                    </div>
+                    <div class="row offset-2">
+                        <table>
+                            <tr>
+                                @{
+                                    int mealCount = cnt + 1;
+                                    cnt = 0;
+                                    List<MealType> exisitingMealTypes = Model.Recipe.MealTypes.ToList();
+                                    foreach (MealType meal in Enum.GetValues(typeof(MealType)))
+                                    {
+                                        if (cnt++ % 5 == 0)
+                                        {
+                                        @:</tr><tr>
+                                        }
+                                        @:<td style="padding-right:15px">
+                                            @if (exisitingMealTypes.Contains(meal))
+                                            {
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox"
+                                                           name="selectedMeals"
+                                                           value="@meal"
+                                                           checked=""
+                                                           class="custom-control-input"
+                                                           id="meal @cnt" />
+                                                    <label class="custom-control-label" for="meal @cnt">@meal.ToString();</label>
+
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox"
+                                                           name="selectedMeals"
+                                                           value="@meal"
+                                                           class="custom-control-input"
+                                                           id="meal @cnt">
+                                                    <label class="custom-control-label" for="meal @cnt">@meal.ToString()</label>
+                                                </div>
+                                            }
+
+                                        @:</td>
+                                    }
+                                @:</tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="col-11 offset-3">
+                        <h5>Steps</h5>
+
+                        <div class="form-group row" id="stepsList">
+                            @foreach (var step in Model.Recipe.Steps)
+                            {
+                                <div class="input-group">
+                                    <input type="text" name="steps" class="form-control" asp-for="@step.Name" />
+                                    <div class="input-group-append remove">
+                                        <span class="input-group-text " style="padding-right:2em"> X </span>
+                                    </div>
+                                </div>
+                            }
+
+                            <div class="input-group">
+                                <input type="text" name="steps" class="form-control" />
+                                <div class="input-group-append remove">
+                                    <span class="input-group-text " style="padding-right:2em"> X </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" form-group row" style="text-align:center">
+                            <button id="addStep" class="btn text-white btn-secondary" style="cursor:pointer">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                @if (Model.Recipe.Id != 0)
+                {
+                    <div class="col-3 offset-1 pt-4 pl-5">
+                        <img src="@Model.Recipe.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+                    </div>
+                }
+
+            </div>
+
+
+        </form>
+        <div class="col-8 pt-4">
+            <div class="row col-11 offset-3">
+                <form id="ingredientsForm">
+                    <h5>Ingredients</h5>
+                    <div class="row">
+                        <div class="col">
+                            <label asp-for="Ingredient.Measurement"></label>
+                            <input id="measurementInput" name="measurementInput" class="form-control isValidMeasurement" title="Please select!" />
+                            <span asp-validation-for="Ingredient.Measurement" id="measurementInputValidation" class="text-danger"></span>
+                        </div>
+                        <div class="col" id="productDropdown">
+                            <partial name="_ProductDropdownList" model="Model" />
+                        </div>
+                        <div class="col">
+                            <label asp-for="Ingredient.Unit"></label>
+                            @Html.DropDownListFor(m => m.Ingredient.UnitId, Model.UnitList, "- Select unit", new { @class = "form-control", @id = "unitInput" })
+                            <span asp-validation-for="Ingredient.Unit" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label asp-for="Ingredient.Comment"></label>
+                            <p style="margin-bottom:0px;">
+                                <small class="form-text text-muted">
+                                    If you want to, you can provide additional instructions i.e. <em>diced, cut into squares</em>
+                                </small>
+                            </p>
+                            <input id="commentInput" name="commenttInput" class="form-control" />
+                            <span asp-validation-for="Ingredient.Comment" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class=" form-group row" style="text-align:center">
+                        <button name="addIngredient" id="addIngredient" class="btn text-white btn-secondary" style="cursor:pointer">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="row col-11 offset-3">
+                <p>
+                    Can't find the product you need?
+                    <a class="btn btn-light text-primary btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Click here
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <form method="post" name="productForm">
+                            <div class="input-group row">
+                                <div class="col">
+                                    <label asp-for="Product.Name"></label>
+                                    <input id="productName" name="productName" class="form-control" />
+                                    <span id="productNameValidation" asp-validation-for="Product.Name" class="text-danger"></span>
+                                </div>
+                                <div class="col">
+                                    <label asp-for="Product.PluralName"></label>
+                                    <input id="productPluralName" name="productPluralName" class="form-control" />
+                                    <span asp-validation-for="Product.PluralName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row d-flex justify-content-center">
+                                <button id="addProduct" type="submit" form="productForm" onclick="SubmitProductForm()" class="btn btn-sm btn-secondary">Add product</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row col-11 offset-3" id="products-container">
+                @foreach (var ingredient in Model.Recipe.Ingredients)
+                {
+                    <div class="item">
+                        <div class="remove">X</div>
+                        @ingredient.Display()
+                        <input type="hidden" measurement="@ingredient.Measurement" product="@ingredient.ProductId" unit="@ingredient.UnitId" />
+                    </div>
+
+                }
+            </div>
+        </div>
+        @*</div>*@
+        <br />
+        <div class="col-4 offset-4">
+            @if (Model.Recipe.Id != 0)
+            {
+                <div class="row">
+                    <div class="col">
+                        <button asp-controller="Recipe" asp-action="Upsert" type="submit" form="recipeHeader" id="submit" class="btn btn-primary form-control" asp-route-id="@Model">Update</button>
+                    </div>
+                    <div class="col">
+                        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col">
+                        <button asp-controller="Recipe" asp-action="Upsert" type="submit" form="recipeHeader" id="submit" class="btn btn-primary form-control">Create</button>
+                    </div>
+                    <div class="col">
+                        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @section Scripts {
+            <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+            <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+            <script src="~/js/upsertRecipe.js"></script>
+            
+
+        }
